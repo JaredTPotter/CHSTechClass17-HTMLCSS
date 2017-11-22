@@ -6,11 +6,12 @@
 	body {
 		font-family: arial;
 		background-color: rgb(185,179,175);
-		padding: 10px;
+		padding: 0px;
 		text-align: left;
 		/*background-image: url("https://wallpaperscraft.com/image/potatoes_vegetables_a_lot_of_77781_2048x1152.jpg");*/
 		background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), url("https://wallpaperscraft.com/image/potatoes_vegetables_a_lot_of_77781_2048x1152.jpg");
 		background-repeat: no-repeat;
+		margin: 0px;
 	}
 		h1 {
 			color: rgb(9, 115, 84);
@@ -25,43 +26,55 @@
 		background-color: rgb(250, 250, 250);
 		width: 500px;
 		height: 700px;
-		margin: 10px auto 10px auto;
+		margin: 75px auto 50px auto;
 	}
-	p {
+	#paragraph {
 		padding: 20px;
 		width: 450px;
 		font-size: 125%;
 	}
-	p:hover {
+	#paragraph:hover {
 		background-color : rgb(220,220,220);
 	}
 	#navbar {
-		margin: 0px 0px 0px 1200px;
+		margin: 0px;
 		background-color: white;
-		padding: 20px;
+		padding: 10px;
 		font-size: 125%;
+		position: fixed;
+		width: 100%;
+		top: 0px;
+		left: 0px;
 	}
 	a {
 		text-decoration: none;
 		color:#097354;
-		padding: 20px;
+		padding: 10px;
 	}
 	a:hover {
 		color:#07503a;
 		background-color: rgb(220,220,220);
+	}
+	#navtext {
+		width: 100%;
+		margin: 0px;
+	}
+	#right {
+		float: right;
 	}
 
 	</style>
 </head>
 	<body>
 		<div id="navbar">
-				<a href="index.html">Home</a>
-				<a href="potatoes.html">Potatoes</a>
-				<a href="Video.html">Video</a>
+			<p id="navtext">The Potato Blog<span id="right">
+			<a href="index.html">Home</a>
+			<a href="potatoes.html">Potatoes</a>
+			<a href="Video.html">Video</a></span></p>
 		</div>
 		<div id="content"><h1> Potatoes! </h1>
-		<p id="great"> They are great! They have given many life (expect for all those Irish who died in the great potato famine) and provide a delicious side to steak. </p>
-		<p> They are great for these reasons:</p>
+		<p id="paragraph"> They are great! They have given many life (expect for all those Irish who died in the great potato famine) and provide a delicious side to steak. </p>
+		<p id="paragraph"> They are great for these reasons:</p>
 		<ol>
 			<li>Beautiful Shape</li>
 				<ul>
