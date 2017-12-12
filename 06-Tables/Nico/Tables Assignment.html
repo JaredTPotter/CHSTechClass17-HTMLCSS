@@ -6,21 +6,29 @@
     </head>
 
     <body>
-        <table>
+        <table border="1">
             <tr>
-                <td>15</td>
-                <td>15</td>
-                <td>15</td>
+                <th></th>
+                <th scope="col">Column 1</th>
+                <th scope="col">Column 2</th>
+                <th scope="col">Column 3</th>
+            </tr>
+
+            <tr>
+                <th scope="row">Row 1:</th>
+                <td colspan="3">1</td>
+                
             </tr>
             <tr>
-                <td>45</td>  
-                <td>45</td>
-                <td>45</td>   
+                <th scope="row">Row 2:</th>
+                <td rowspan="2">2</td>  
+                <td>3</td>
+                <td>4</td>   
             </tr>
             <tr>
-                <td>60</td> 
-                <td>60</td>
-                <td>60</td>
+                <th scope="row">Row 3:</th>
+                <td colspan="2">6</td>
+                
             </tr>
         </table>
     </body>
