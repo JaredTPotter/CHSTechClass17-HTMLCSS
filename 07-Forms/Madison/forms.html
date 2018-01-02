@@ -5,7 +5,58 @@
     <body>
         <form action="http://www.google.com"
         method="post">
-        
-
+            <p> Username:
+                <input type="text" name="username" size="15" maxlength="30"/>
+             </p>
+            <p> Password:
+                <input type="password" name="password" size="15" maxlength="30" />
+            </p>
+        </form>
+        <form action="http://www.google.com">
+            <p> What did you think? </p>
+            <textarea name="comments" cols="20" rows="4"> Enter 
+                your comments...</textarea>
+        </form> 
+        <form action="http://www.google.com">
+            <p> Please select your favorite genre:
+                <br />
+                <input type="radio" name="genre" value="rock"
+                    checked="checked" /> Rock
+                <input type="radio" name="genre" value="pop" /> Pop
+                <input type="radio" name="genre" value="jazz" /> Jazz 
+            </p>
+        </form> 
+        <form action="http://www.google.com">
+            <p> Please select your favorite music service(s):
+                <br />
+                <input type="checkbox" name="service"
+                    value="itunes" checked="checked" /> iTunes
+                <input type="checkbox" name="service"
+                    value="lastfm" /> Lastfm
+                <input type="checkbox" name="service" 
+                    value="spotify" /> spotify
+            </p>
+        </form>
+        <form action="http://www.google.com" >
+            <p> What device do you listen to music on?</p>
+            <select name="devices">
+                <option value="ipod">Ipod</option>
+                <option value="radio">Radio</option>
+                <option value="computer">Computer</option>
+            </select>
+        </form>
+        <form action+"http://www.google.com">
+            <p>Do you play any of the following instruments? 
+                (you can select more than one option by holding 
+                down control on a PC or comman key on a Mac
+                while selecting different options.)</p>
+            <select name="instruments" size="3"
+                multiple="multiple">
+            <option value="guitar" selected="selected">
+                Guitar ]</option>
+            <option vaule="keyboard" selected="selected" >Keyboard</option>
+            <option value="drums" selected+"selected" >Drums</option>
+            </select>
+        </form>
     </body>
 </html>
