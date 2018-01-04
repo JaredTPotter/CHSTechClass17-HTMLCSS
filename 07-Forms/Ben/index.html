@@ -1,7 +1,28 @@
 <html>
     <form action="http://www.google.com">
         <p>Username
-            <input type="text" name="username" size="20" maxlength="100">
+            <input type="text" name="username" size="20" maxlength="100" />
         </p>
+        <p>Password:
+            <input type="password" name="password" size="20" maxlength="100" />
+        <p>Which type of music is your favorite?
+            <br />
+            <input type="radio" name="type" value="Classical" checked="checked" />Classical
+            <input type="radio" name="type" value="Jazz" />Jazz
+            <input type="radio" name="type" value="Rock" />Rock
+            <input type="radio" name="type" value="Pop" />Pop
+        </p>
+        <p>
+            <input type="checkbox" name="service" value="itunes" checked="checked" />iTunes
+            <input type="checkbox" name="service" value="radio" />Radio
+            <input type="checkbox" name="service" value="spotify" />Spotify
+        </p>
+        <p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+            <select name="instruments" size="3" multiple="multiple">
+            <option value="violin" selected="selected">Violin</option>
+            <option value="viola">Viola</option>
+            <option value="cello"selected="selected">Cello</option>
+            <option value="bass">Bass</option>
+</select>
     </form>
 </html>
