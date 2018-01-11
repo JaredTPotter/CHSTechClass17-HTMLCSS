@@ -6,10 +6,16 @@
         <form action="https://www.google.com" action="post">
         <p>First Name
             <input type="text" name="First Name" maxlength="40" />
+            <br />
             Last Name
             <input type="text" name="Last Name" maxlength="40" />
+            <br />
             Credit Card Number
             <input type="password" name="Credit Card Number" maxlength="40">
+            <br />
+            Social Security Number
+            <input type="text" value="Social Security" maxlength="20" />
+            <br />
             <p>What is your deepest secret?</p>
             <textarea name="comments" cols="50" rows="2">This is required!</textarea>
             <br/>
@@ -50,6 +56,7 @@
             </select>
             What is your pet's name?
             <input type="text" name="pet-name" maxlength="50" />
+            </fieldset>
             <br />
             Have you ever done any of these things?(Hold control or command to select more than one)
             <br />
@@ -61,7 +68,6 @@
                 <option value="embezzle">embezzle</option>
                 <option value="murder">murder</option>
             </select>
-            </fieldset>
             <br />
             Upload your tax return from last year:
             <input type="file" name="taxes" />
@@ -72,12 +78,15 @@
             <input type="submit" name="email" value="submit" />
             Please enter the name of your high school:
             <input type="text" name="high school" />
-            <input type="image" src="hillary.jpg" width="90" height="5" />
-            <button><img src="wallpaper_1980.jpg" alt="add" width="5" />Click if you live in the US</button>
+            <input type="image" src="hillary.jpg" width="90" height="20" />
+            <button><img src="https://immigration.procon.org/view.resource.php?resourceID=000842" alt="add" width="20" />Click if you live in the US</button>
             <input type="hidden" name="bookmark" value="info" />
             <label>Gender: <input type="text" name="gender" /></label>
             <br />
-            
+            Find out what we know about you...
+            <br />
+            <input type="search" name="Life meaning" placeholder="We know..." />
+            <input type="submit" value="Search" />
         </p>
         
         </form>
