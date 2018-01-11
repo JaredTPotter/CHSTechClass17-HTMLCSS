@@ -3,6 +3,84 @@
         <title>Forms</title>
     </head>
     <body>
-        <form action="https://www.google.com" action="post"/>
+        <form action="https://www.google.com" action="post">
+        <p>First Name
+            <input type="text" name="First Name" maxlength="40" />
+            Last Name
+            <input type="text" name="Last Name" maxlength="40" />
+            Credit Card Number
+            <input type="password" name="Credit Card Number" maxlength="40">
+            <p>What is your deepest secret?</p>
+            <textarea name="comments" cols="50" rows="2">This is required!</textarea>
+            <br/>
+            How likely are you to become president?
+            <br/>
+            <input type="radio" name="president" value="Not a chance" />
+            Not a chance
+            <input type="radio" name="president" value="Highly unlikely" />
+            Highly unlikely
+            <input type="radio" name="president" value="It's possible" />
+            It's possible
+            <input type="radio" name="president" value="Very likely" />
+            Very likely
+            <input type="radio" name="president" value="I am the president" />
+            I am the president
+            <br/>
+            Pick which people you know:
+            <br />
+            <input type="checkbox" name="people" value="Peter Smith" />
+            Peter Smith
+            <input type="checkbox" name="people" value="Henry Burton" />
+            Henry Burton
+            <input type="checkbox" name="people" value="Fred Johnson" />
+            Fred Johnson
+            <input type="checkbox" name="people" value="Olivia Thompson" />
+            Olivia Thompson
+            <input type="checkbox" name="people" value="Allison Carpenter" />
+            Allison Carpenter
+            <br />
+           <fieldset> What kind of pet do you have?
+            <select name="pets">
+                <option value="dog">dog</option>
+                <option value="cat">cat</option>
+                <option value="lizard">lizard</option>
+                <option value="bird">bird</option>
+                <option value="other">other</option>
+                <option value="none">none</option>
+            </select>
+            What is your pet's name?
+            <input type="text" name="pet-name" maxlength="50" />
+            <br />
+            Have you ever done any of these things?(Hold control or command to select more than one)
+            <br />
+            <select name="crimes" size="" multiple="multiple">
+                <option value="jaywalk">jaywalk</option>
+                <option value="graffiti">graffiti</option>
+                <option value="loiter">loiter</option>
+                <option value="steal">steal</option>
+                <option value="embezzle">embezzle</option>
+                <option value="murder">murder</option>
+            </select>
+            </fieldset>
+            <br />
+            Upload your tax return from last year:
+            <input type="file" name="taxes" />
+            <input type="submit" value="Upload" />
+            <br />
+            Please enter your email:
+            <input type="text" name="email" />
+            <input type="submit" name="email" value="submit" />
+            Please enter the name of your high school:
+            <input type="text" name="high school" />
+            <input type="image" src="hillary.jpg" width="90" height="5" />
+            <button><img src="wallpaper_1980.jpg" alt="add" width="5" />Click if you live in the US</button>
+            <input type="hidden" name="bookmark" value="info" />
+            <label>Gender: <input type="text" name="gender" /></label>
+            <br />
+            
+        </p>
+        
+        </form>
+
     </body>
 </html>
