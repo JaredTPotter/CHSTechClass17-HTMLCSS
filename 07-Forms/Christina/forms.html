@@ -7,7 +7,33 @@
           <p>Username:
               <input type="text" name="username" size="15" maxlength="30" />
           </p>
+          <p>Password:
+              <input type="password" name="password" size="15" maxlength="30"/>
+          </p>
+          <p>What did you think of this gig?</p>
+          <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+          <p>Please selet your favorite genre:
+              <br />
+              <input type="radio" name="genre" value="rock"
+                checked="checked" /> rock
+              <input type="radio" name="genre" value="pop" /> pop
+              <input type="radio" name="genre" value="jazz" /> jazz </p>
+          <p>Please selct your favorite music service(s):
+              <br />
+              <input type="checkbox" name="service" value="itunes" checked="checked" /> itunes
+              <input type="checkbox" name="service" value="lastfm" /> Last.fm
+              <input type="checkbox" name="service" value="spotify" /> spotify
           
+          </p>
+          <p>what device do you listen to music on?</p>
+          <select name="devices">
+              <option value="ipod">iPod</option>
+              <option value="radio">Radio</option> 
+              <option value="computer">Computer</option>       
+          </select>
+          <p>Subscribe to our email list:</p>
+          <input type="text" name="email" />
+          <input type="submit" name="subscribe" value="Subscribe" />
         </form>
      </body>
 </html>
