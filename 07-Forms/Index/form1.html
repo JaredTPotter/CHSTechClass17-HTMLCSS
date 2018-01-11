@@ -5,9 +5,27 @@
 
     </head>
     <body>
-        <form action="https://www.google.com" method="get">
-            <input type="text" name="q" />
+        <form action="https://www.google.com" method="post">
+            <h1>Forms</h1>
+            <label>
+                Username
+                <input type="text" name="username" />
+            </label>
 
+            <br />
+
+            <label>
+                Password
+                <input type="password" name="pass" />
+            </label>
+
+            <br />
+
+            <input type="radio" name="genre" value="rock" checked="checked">Rock </input>
+
+
+            <input type="radio" name="genre" value="pop" />Pop
+            <input type="radio" name="genre" value="jazz" />Jazz
         </form>
     </body>
 </html>
