@@ -5,55 +5,40 @@
         </p>
         <p>Password:
             <input type="password" name="password" size="20" maxlength="100" />
-        <p>Which type of music is your favorite?
+        <p>Which grade are you in?
             <br />
-            <input type="radio" name="type" value="Classical" checked="checked" />Classical
-            <input type="radio" name="type" value="Jazz" />Jazz
-            <input type="radio" name="type" value="Rock" />Rock
-            <input type="radio" name="type" value="Pop" />Pop
+            <input type="radio" name="type" value="9" checked="checked" />9
+            <input type="radio" name="type" value="10" />10
+            <input type="radio" name="type" value="11" />11
+            <input type="radio" name="type" value="12" />12
         </p>
-        <p>What is your favorite music service?
+        <p>Which core classes do you like?
             <br />
-            <input type="checkbox" name="service" value="itunes" checked="checked" />iTunes
-            <input type="checkbox" name="service" value="radio" />Radio
-            <input type="checkbox" name="service" value="spotify" />Spotify
+            <input type="checkbox" name="service" value="english" checked="checked" />English
+            <input type="checkbox" name="service" value="history" />History
+            <input type="checkbox" name="service" value="math" />Math
+            <input type="checkbox" name="service" value="science" />Science
         </p>
-        <p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
-            <select name="instruments" size="3" multiple="multiple">
-            <option value="violin" selected="selected">Violin</option>
-            <option value="viola">Viola</option>
-            <option value="cello"selected="selected">Cello</option>
-            <option value="bass">Bass</option>
+        <p>How many years have you been at Covenant (including this year)?
+            <select name="years">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
         </p>
-        <p>    
-            <legend>
-               Your Details:
-            </legend>
-            <label>
-                Name:
-                <input type="text" name="name" size="30" maxlength="100">
-            </label>
-            <br />
-            <label>
-                Email:
-                <input type="email" name="email" size="30" maxlength="100">
-            </label>
-            <br />
-            <legend>
-                 Your Review:
-            </legend>
-            <p>
-                <label for="hear-about">
-                        How did you hear about us?
-                </label>
-                <select name="referrer" id="hear-about">
-                <option value="google">Google</option>
-                <option value="friend">Friend</option>
-                <option value="advert">Advert</option>
-                <option value="other">Other</option>
-                </select>
-            </p>
-            <p>
-
+        <p>Which electives have you taken or are you taking? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+            <select name="electives" size="2" multiple="multiple">
+                <option value="choir">Choir</option>
+                <option value="art">Art</option>
+                <option value="yearbook">Yearbook</option>
+                <option value="reading">Reading</option>
+            </select>
+        </p>
+        <p>How do you feel about Covenant?</p>
+            <textarea name="comments" cols="10" rows="5">Enter your comments...</textarea>
+        <p>
+            <input type="submit" name="submit" value="Submit" />
+        </p>
     </form>
 </html>
