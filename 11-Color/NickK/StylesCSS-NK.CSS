@@ -1,10 +1,15 @@
-<DOCTYPE html>
-    <html>
-        <head>
-            <title>SlothsRUS</title>
-            <body>
-                
-            </body>
-        </head>
-    </html>
-</DOCTYPE>
+body{
+    background-color: #02967B;
+}
+
+head{
+    color: green
+}
+
+h1,h2{
+    color: #4A1400;
+}
+
+p{
+    color: rgb(125,0,0);
+}
