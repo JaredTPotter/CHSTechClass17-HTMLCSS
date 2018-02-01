@@ -1,0 +1,18 @@
+* {
+    font-family: courier;
+}
+
+body {
+    background-color: #ee4;
+}
+
+h1, h2 {
+    color: hotpink;
+}
+
+.quote {
+    color: rgb(82, 41, 232);
+    font-size:40px;
+    line-height: 60px;
+    padding:0 20%;
+}
