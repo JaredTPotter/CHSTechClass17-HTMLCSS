@@ -7,3 +7,39 @@ h1, h2 {
 p {
     color: yellow
 }
+.first-sentence {
+    font-size: 15;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 10em;
+    letter-spacing: 10em;
+    word-spacing: 20em;
+    text-align: justify;
+    vertical-align: middle;
+    text-indent: 100px;
+    text-shadow: 10px 10px yellow;
+}
+.quote:first letter {
+    font-size: 200%;
+}
+.quote:first line {
+    font-weight: bold;
+}
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+a:active {
+    color: yellow;
+    text-decoration: none;
+}
+a:visited {
+    color: orange;
+    text-decoration: bold underline;
+}
