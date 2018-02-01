@@ -1,0 +1,18 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #C7ECFF;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+.quote {
+    color: rgba(41,172,232,1);
+    font-size:40px;
+    line-height: 60px;
+    padding:0 20%;
+}
