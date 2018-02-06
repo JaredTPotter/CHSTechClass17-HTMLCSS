@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    font-family: Georgia, Times, serif;
+    font-size: 200%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+h2 {
+    color: rgb(128, 0, 0);
+    font-weight: italic;
+    line-height: 1.4em;
+    word-spacing: 1em;
+    text-indent: 20px;
+}
+p {
+    color: #181818;
+    vertical-align: middle;
+}
+.quote {
+    text-decoration: underline;
+}
