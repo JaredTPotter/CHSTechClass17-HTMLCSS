@@ -11,7 +11,7 @@ h2 {
     color: rgb(128, 0, 0);
     font-weight: italic;
     line-height: 1.4em;
-    word-spacing: 1em;
+    word-spacing: .2em;
     text-indent: 20px;
 }
 p {
@@ -20,4 +20,29 @@ p {
 }
 .quote {
     text-decoration: underline;
+}
+li {
+    text-shadow: 1px 1px 0px #000000;
+}
+p:first-letter {
+    font-size: 200%;
+}
+p:first-line {
+    color: #ff0000;
+}
+a:link {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: cyan;
+    text-decoration: none;
+}
+a:active {
+    color: rgb(2, 184, 184);
+    text-decoration: none;
 }
