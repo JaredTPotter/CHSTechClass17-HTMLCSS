@@ -1,3 +1,6 @@
+
+/* This portion of code changes the color of the text */
+
 body {
     background-color: #7AC2C7;
 }
@@ -21,3 +24,68 @@ p {
     color: red;
     
 }
+
+/* This portion will change the text in of itself */
+
+
+h1 {
+    font-family: Georgia, Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    
+}
+
+p {
+    font-stretch: semi-condensed;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: gold;
+    text-indent: 40px;
+    
+}
+
+li: {
+    font-size: 200%; 
+    font-weight: bolder;
+    line-height: 1.4em;
+    word-spacing: 0.1em;
+}
+
+.first-sentence {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 80px;
+    text-transform: capitalize;
+}
+
+.quote {
+    font-size: 200%;
+    text-decoration: line-through;
+    
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;
+}
+
+a:link {
+    color: deeppink;
+}
+
+a:hover {
+    color: black
+}
+
+.quote::first-letter {
+    font-size: 200%;
+}
+
+.quote::first-line {
+    font-weight: bold;
+}
+
+
