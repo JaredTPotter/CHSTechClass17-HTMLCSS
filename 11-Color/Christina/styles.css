@@ -1,0 +1,31 @@
+body {
+    background-color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+p {color: rgb(6, 165, 78);
+    line-height: 10em; 
+
+}
+p intro:forst-letter {font-weight: 200%};
+.first-sentence {
+    color: #5A1616;
+    font-weight: bold;
+    font-size: 80;
+    font-style: oblique;
+    text-decoration: underline;
+    letter-spacing: 1em;
+    text-align: middle;
+    vertical-align: baseline;
+}
+h1 {
+    text-transform: uppercase;
+    text-decoration: blink;
+}
+h2 {
+    text-indent: 70px;
+    text-shadow: 8px 8px 7px #285A49
+}
+ 
+
+    

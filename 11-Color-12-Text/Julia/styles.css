@@ -1,0 +1,13 @@
+* {background-color: rgb(255, 228, 224);
+    color: rgb(81, 122, 153);
+    font-family: Georgia, Times New 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-weight: bold;
+}
+h1, h2 {
+    background-color: rgb(146, 175, 169);
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: normal;
+}
