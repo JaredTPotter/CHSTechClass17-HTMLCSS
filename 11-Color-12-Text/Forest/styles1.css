@@ -3,11 +3,19 @@
 }
 
 body {
-    background-color: #ee4;
+    background-color: #aeeee443;
 }
 
 h1, h2 {
     color: hotpink;
+}
+h3, h4 {
+    color: 8E0B2B;
+
+}
+a {
+
+    text-decoration: blink;
 }
 
 .quote {
@@ -15,4 +23,16 @@ h1, h2 {
     font-size:40px;
     line-height: 60px;
     padding:0 20%;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+    cursor: default;
+}
+
+a:visited {
+    color: purple;
+
+
 }
