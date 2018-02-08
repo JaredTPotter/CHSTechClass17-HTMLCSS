@@ -1,5 +1,6 @@
 body{
     background-color: #02967B;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 head{
@@ -9,8 +10,13 @@ head{
 h1,h2{
     text-align: center;
     color: #4A1400;
+    font-family: Helvetica, Arial, 'Franklin Gothic Medium';
 }
 
 p{
     color: rgb(125,0,0);
+    text-align: justify;
+    cursor: text;
+    background-color: #ff000048; color: #ffffff;
+    text-shadow: 1px 1px 0px #3d0000;
 }
