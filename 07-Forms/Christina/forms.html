@@ -1,6 +1,22 @@
 <html>
     <head>
         <title>What You Like</title>
+        <style>
+        input {
+            background: brown;
+            border: green solid 6px;
+        }
+        input:focus, input:hover {
+        border: purple dotted 90px; 
+        }
+        *focus {
+            outline: blue dotted 9px;
+        }
+        input[type="submit"] {
+            background-color:azure;
+        }
+
+        </style>
     </head>
     <body>
         <form action="http://www.example.com/login.php">
@@ -25,15 +41,17 @@
               <input type="checkbox" name="service" value="spotify" /> spotify
           
           </p>
-          <p>what device do you listen to music on?</p>
+          <p>What device do you listen to music on?</p>
           <select name="devices">
               <option value="ipod">iPod</option>
               <option value="radio">Radio</option> 
               <option value="computer">Computer</option>       
           </select>
           <p>Subscribe to our email list:</p>
-          <input type="text" name="email" />
+          <p>email:
+          <input type="text" name="email" /> 
           <input type="submit" name="subscribe" value="Subscribe" />
+        </p>
         </form>
      </body>
 </html>
