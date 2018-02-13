@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #C7ECFF;
+    background-color: #CEF;
 }
 
 h1, h2 {
@@ -16,3 +16,14 @@ h1, h2 {
     line-height: 60px;
     padding:0 20%;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: text;
+}
+
+a:visited {
+    color:grey;
+}
+
