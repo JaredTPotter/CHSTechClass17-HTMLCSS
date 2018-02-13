@@ -5,7 +5,9 @@ body {
 }
 p {color: rgb(6, 165, 78);
     line-height: 10em; 
+
 }
+p intro:forst-letter {font-weight: 200%};
 .first-sentence {
     color: #5A1616;
     font-weight: bold;
