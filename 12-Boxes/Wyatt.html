@@ -27,6 +27,10 @@
         p {
             text-align: center;
         }
+        p.one {
+            text-align:left
+            
+        }
         button {
             margin:auto;
             text-align: center;
@@ -49,16 +53,29 @@
             height: 10%;
         }
         div {
-            ...
+            border-width: 1px 4px 4px 1px ;
+            border-color:dimgray;
+            background-color:white;
+        }
+        div.second {
+            text-align:left;
+            margin: 5pxs;
         }
         body {
-            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif
+
         }
         #best-box  {
-            background-color:dimgray;
+            background-color:white;
             width: 40%;
             min-width: 100px;
             max-width: 900px;
+            min-height: 100px;
+            max-width: 200px;
+        }
+        img {
+            padding: 5px;
+            background-color:red;
         }
         </style>
         <title>CSS</title>
@@ -74,11 +91,17 @@
                     <li><a href="https://www.online-calculator.com/">A3</a></li>
                 </ul>
             </table>
-        <div>
+        <div id="#best-box">
             <button><a href="https://nerdist.com/this-cat-bonnet-is-purrrfection/">Search</a></button>
+                <p>this is filler text to space my website.</p>
             <img src="https://ak4.picdn.net/shutterstock/videos/1905304/thumb/1.jpg">
                 <p>Click to get pranked.</p>
             <img src="https://i.pinimg.com/736x/a8/30/fd/a830fd1a12fdee8273e3b456499519e2--hilarious-jokes-funny-shit.jpg">
+        </div> 
+        <div class="second">
+            <input />
+                <button class="two"><a href="https://giphy.com/search/kitten/">Kittens</a></button>  
+            <h2>This is a bold Header 2</h2>
         </div> 
     </body>
 </html>
