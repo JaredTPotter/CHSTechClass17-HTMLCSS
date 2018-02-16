@@ -2,6 +2,21 @@
     <head>
         <title>Form 1</title>
     </head>
+    <style>
+        input {
+            background-color: lightblue;
+        }
+        input:hover {
+            border: red dotted 2px;
+        }
+        input:active {
+            border: red solid 2px;
+        }
+        input:active [type="text"] {
+            background-color: white;
+        }
+          
+    </style>
     <body>
         <form action="http://www.example.com/subscribe.php" method="get">
             <p>This is where the form controls will appear.</p>
@@ -56,10 +71,5 @@
                 <input type="text" name="email" />
                 <input type="submit" name="subscribe" value="Subscribe" />
             </form>
-        </form>
-
-           
-
-            </form>
-    </body>
+       </body>
 </html>
