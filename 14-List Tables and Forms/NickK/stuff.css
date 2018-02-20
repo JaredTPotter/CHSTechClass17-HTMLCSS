@@ -1,0 +1,6 @@
+ol{
+    list-style-type: georgian;
+}
+li fruits{
+    list-style-image:  url("../fruit bowl.jpg");
+}
