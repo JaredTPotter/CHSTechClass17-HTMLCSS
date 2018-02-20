@@ -2,22 +2,65 @@
     <head>
         <title>This is my boxes page.</title>
         <style>
-            body {
+            html, body {
                 background-color: aliceblue;
+                box-sizing: border-box;
             }
 
             #best-box {
-                background-color:blue; 
+                background-color:lightblue; 
                 width:60%;
                 height:60%;
                 min-width: 300px;
                 min-height: 300px;
                 max-width: 1000px;
                 max-height: 1000px;
+
+                border-width: 1px 6px 6px 1px;
+                border-color:darkblue;
+                border-style:dashed;
+
+                margin: 20px auto;
+
+                padding:20px;
             }
+
+            div { 
+                width: 200px; 
+                height: 200px; 
+                margin: 10px;
+                float: left;
+                box-shadow: 0px 0px 25px #777777;
+                border-radius: 8px;
+                }
+
+            div p { display:none; margin:0; }
+            div:hover p { display:block; }
+
+            
+            .papayawhip { background: papayawhip; }
+            .blanchedalmond { background: blanchedalmond; }
+            .antiquewhite { background:antiquewhite; }
+            .peachpuff { background: peachpuff; }
+            
         </style>
     </head>
     <body>
             <div id="best-box">test</div>
+
+            <!--
+            <div class="papayawhip">
+                <p>papayawhip</p>
+            </div>
+            <div class="blanchedalmond">
+                <p>blanchedalmond</p>
+            </div>
+            <div class="peachpuff">
+                <p>peachpuff</p>
+            </div>
+            <div class="antiquewhite">
+                <p>antiquewhite</p>
+            </div>
+        -->
     </body>
 </html>

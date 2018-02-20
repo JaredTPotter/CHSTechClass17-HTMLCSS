@@ -1,0 +1,20 @@
+body {
+    background-color: aliceblue
+}
+p.one {
+    border-width: 10px;
+    border-style: solid;
+    border-color: navajowhite rebeccapurple rgb(0, 0, 0) moccasin
+}
+p {
+    width: 250px;
+    border: 3px solid blue;
+    padding: 20px;
+    margin: 20px auto;
+}
+div something whateveriwantittobe {
+    color: salmon;
+    background-color: brown;
+    margin: 200px;
+    align-self: auto;
+}
