@@ -1,20 +1,17 @@
 body {
-    background-color: aliceblue
+    background-color: aliceblue;
+    text-align: center
 }
 p.one {
     border-width: 10px;
     border-style: solid;
-    border-color: navajowhite rebeccapurple rgb(0, 0, 0) moccasin
+    border-color: navajowhite rebeccapurple rgb(0, 0, 0) moccasin;
 }
 p {
     width: 250px;
     border: 3px solid blue;
     padding: 20px;
     margin: 20px auto;
+    border-radius: 60px;
 }
-div something whateveriwantittobe {
-    color: salmon;
-    background-color: brown;
-    margin: 200px;
-    align-self: auto;
-}
+
