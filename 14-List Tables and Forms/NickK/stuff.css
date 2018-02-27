@@ -1,6 +1,12 @@
-ol{
-    list-style-type: georgian;
-}
-li fruits{
-    list-style-image:  url("../fruit bowl.jpg");
+imput{
+    margin: 5px;
+    padding: 5px;
+    border: 2px gray;
+    background-color: aquamarine;
+    color: aliceblue;
+    font-size: 12px;
+    outline: 2px;
+    background-image: url("./fruit bowl.jpg");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
 }
