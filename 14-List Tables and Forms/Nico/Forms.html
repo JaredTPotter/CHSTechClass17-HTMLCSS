@@ -6,16 +6,32 @@
            <style>
                input {
                    margin: 5px;
-                   padding: 10px;
+                   padding: 10px 10px 10px 40px;
                    border: 3px dashed magenta;
                    background-color:pink;
                    color: blueviolet;
-                   color
+                   font-size: 20px;
+
+                   
+                   background-image: url('./SmileyImage.jpg');
+                   background-size: 30px 30px;
+                   background-repeat: no-repeat;
+
                }
 
                *focus {
                     outline-color: black;
                     outline: 5px;
+               }
+
+               .title {
+                float: left;
+                width: 75px;
+                padding: 10px;
+               }
+
+               .form {
+
                }
 
 
@@ -25,13 +41,20 @@
     <body>
        <form action="https://www.google.com/" method="get">
 
-       <p>Username:
+        <p>
+        <div class="title"> 
+            Username:
+        </div>
            <input type="text" name="q" size="25"
            maxlength="35"/>
-           </p>
+        
+        </p>
 
-       <p>Password:
-           <input type="password" name="password" size="30" maxlength="35"/>
+       <p>
+        <div class="title">    
+        Password:
+        </div>
+           <input type="password" name="password" size="25" maxlength="35"/>
            </p>
 
        <p>What did you think of this gig?</p>
