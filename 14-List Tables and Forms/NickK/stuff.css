@@ -1,0 +1,12 @@
+input{
+    margin: 5px;
+    padding: 5px;
+    border: 2px gray;
+    background-color: aquamarine;
+    color: aliceblue;
+    font-size: 12px;
+    outline: 2px;
+    background-image: url('./fruit bowl.jpg');
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+}
