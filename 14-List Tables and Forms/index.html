@@ -3,7 +3,17 @@
             <title>CSS</title>
             <style>
 ol { list-style-type:square; }
-ul {}
+ul { 
+    list-style: outside lower-roman; 
+}
+li { 
+    font-size: 20px;
+    margin:10px 0;
+}
+ul.second {
+    list-style-image: url("bobross.png");
+}
+
             </style>
     </head>
     <body>
@@ -11,10 +21,19 @@ ul {}
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3
-                <ul>
+                <ul class="first">
                     <li>Item 3.a</li>
                     <li>Item 3.b</li>
                     <li>Item 3.c</li>
+                    <li>Item 3.d</li>
+                </ul>
+            </li>
+            <li>Item 4
+                <ul class="second">
+                    <li>Item 4.a</li>
+                    <li>Item 4.b</li>
+                    <li>Item 4.c</li>
+                    <li>Item 4.d</li>
                 </ul>
             </li>
         </ol>
