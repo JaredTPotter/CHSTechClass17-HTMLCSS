@@ -1,0 +1,126 @@
+<html>
+	<head>
+        <title>Lists!!!</title>
+        <style>
+            ol { list-style-type: square; }
+            ul ul { list-style-type: lower-greek; }
+        </style>
+        <style>
+            #list-box-thing {
+                background:rgb(241, 199, 194);
+
+                border-color:darkgreen;
+                border-width: 4px;
+                border-style:solid;
+
+                border-top-left-radius: 40px 15px;
+            }
+            </style>
+            <style> 
+                #ol-1{
+                    background-color:rgb(209, 155, 155);
+            }
+            </style>
+            <style> 
+                #ol-2{
+                    background-color:rgb(182, 126, 126); 
+            } 
+            </style>
+            <style> 
+                #ol-3{
+                    background-color:rgb(156, 112, 112);
+            }
+            </style>
+            <style>
+                #ol-4{
+                    background-color:rgb(139, 105, 105);
+            }
+            </style>
+
+            <style>
+                input {
+                        margin: 5px;
+                        padding: 5px 5px 5px 35px;
+                        border: 1px solid grey;
+                        background-color: aliceblue;
+                        color: darkslategray;
+                        font-size: 18px;
+                        outline: 0;
+                        background-image: url('./insta.png');
+                        background-size: 30px 30px;
+                        background-repeat: no-repeat;
+             }
+        
+            </style>
+            <style>
+                .title {
+                    float: left;
+                    width: 75px;
+                    padding: 10px;
+                }
+            </style>
+            <style>
+                .form {
+                    float: middle;
+                    width: 75px;
+                    padding: 10px;
+                }
+            </style>
+	</head>	
+	<body>
+		<ol>
+                    <div id="ol-1">
+            <li>List item one</li>
+                         </div>
+                    <div id="ol-2">
+            <li>List item two</li>
+                         </div>
+                    <div id="ol-3">
+			<li>List item three
+                         </div>
+                    <div id="list-box-thing">list box thing
+				<ul>
+					<li>List item one</li>
+					<li>List item two</li>
+                </ul>  
+                    </div>
+            </li>
+            <div id="ol-4">
+            <li>List item four</li>
+                </div>
+        </ol>
+        <table>
+                <div id="table" >
+        <table border="1">
+            <tr>
+                <td colspan="3">1</td>
+            </tr>
+            <tr>
+                <th rowspan="2">2</th>
+                <td>3</td>
+                <th>4</th>
+            </tr>
+            <tr>
+                <td colspan="2">6</td>
+            </tr>
+                </div>
+        </table>
+        
+        <form action="http://www.google.com"
+        method="post">
+                    <h1>Forms</h1>
+                        <label>
+                        <div class="title">
+                            Username
+                        </div>
+                <input type="text" name="username" size="15" maxlength="30"/>
+                        </label>
+                        <div class="form">
+                            Password
+                        </div>
+                <input type="password" name="password" size="15" maxlength="30" />
+        </form>
+            
+	</body>
+
+</html>

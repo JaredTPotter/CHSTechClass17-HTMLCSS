@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(200, 200, 200);
+}
+h1{
+    color: white;
+    background-color: darkcyan;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+
+}
+h2{
+    background-color: #e987ab;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 2ch;
+    line-height: 1.4em;
+} 
+a:link{
+    color: rgb(19, 34, 80);
+    text-decoration: underline;
+    text-align: right;
+}

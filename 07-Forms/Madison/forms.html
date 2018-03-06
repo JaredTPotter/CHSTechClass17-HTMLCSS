@@ -1,9 +1,25 @@
 <html>
     <head>
         <title>Form One</title>
-        <style>
-            input { border:1px dashed pink; }
-        </style>
+       <style>
+    input {
+        background: lightgrey;
+    }
+
+    input:focus, input:hover {
+        border:papayawhip;
+    }
+
+    *:focus {
+        outline:5px dotted salmon;
+    }
+
+    input[type="submit"] {
+        color: goldenrod;
+        background:gainsboro;
+    }
+    
+       </style>
     </head>
     <body>
         <form action="http://www.google.com"
@@ -20,28 +36,28 @@
             <textarea name="comments" cols="20" rows="4"> Enter 
                 your comments...</textarea>
         <form action="http://www.google.com">
-            <p> Please select your favorite genre:
+            <p> yo yo yo how's it goin?:
                 <br />
-                <input type="radio" name="genre" value="rock"
-                    checked="checked" /> Rock
-                <input type="radio" name="genre" value="pop" /> Pop
-                <input type="radio" name="genre" value="jazz" /> Jazz 
+                <input type="radio" name="genre" value="good"
+                    checked="checked" /> Good
+                <input type="radio" name="genre" value="great" /> Great
+                <input type="radio" name="genre" value="fantastical" /> Fantastical
             </p>
         <form action="http://www.google.com">
-            <p> Please select your favorite music service(s):
+            <p> What's cookin good lookin?:
                 <br />
                 <input type="checkbox" name="service"
-                    value="itunes" checked="checked" /> iTunes
+                    value="greattt" checked="checked" /> greattt
                 <input type="checkbox" name="service"
-                    value="lastfm" /> Lastfm
+                    value="umm.?" /> umm.?
                 <input type="checkbox" name="service" 
-                    value="spotify" /> spotify
+                    value="better now that you asked" /> better now that you asked
             </p>
         <form action="http://www.google.com" >
-            <p> What device do you listen to music on?</p>
+            <p> how do you prefer your asian food?</p>
             <select name="devices">
-                <option value="ipod">Ipod</option>
-                <option value="radio">Radio</option>
+                <option value="asian">asian.</option>
+                <option value="really asian">really asian</option>
                 <option value="computer">Computer</option>
             </select>
         <form action+"http://www.google.com">
