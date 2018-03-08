@@ -1,0 +1,198 @@
+<html>
+    <head>
+        <title>Lists</title>
+        <style>
+            * {
+                margin: 10px;
+                background-color: rgba(234, 253, 255, 0.74);
+                color: rgb(97, 45, 3);
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+                background-color: rgb(196, 206, 14)
+                position: static;
+                padding-top: 30px;
+            }
+            ul {
+                list-style-type: armenian;
+                border-bottom: 2px dashed rebeccapurple;
+            }
+        
+            ol {
+                list-style-image: url("../../05-Images/Julia/brownbag.gif");
+            }
+            ul:hover {
+                color: palevioletred;
+            }
+            table{
+                padding: 7px;
+                color: rgb(119, 0, 255);
+                font-family: fantasy;
+                text-transform: uppercase;
+                border: 5px solid rgb(202, 252, 78);
+                margin: 5% auto;
+                font-size: 50px;
+                border-spacing: 50px;
+                border-collapse: separate;
+            }
+            td{
+                width: 150px;
+                border: 3px dashed rgb(0, 132, 255); 
+                text-align: center;
+               
+            }
+            input {
+                margin:  5px;
+                padding: 2px;
+                height: 25px;
+                border: 2px solid rgb(97, 45, 3);
+                border-radius: 5%;
+               
+            }
+            input:active {
+                
+                outline:rgb(97, 45, 3) solid 3px;
+                background: rgb(97, 45, 3);
+            }
+             button {
+                background-image: url("../../05-Images/Julia/brownbag.gif");
+                height: 25px;
+                border-bottom: 4px solid rgb(97, 45, 3);
+                color: white;
+             }
+             .name {
+                background-color: rgb(36, 1, 1);
+                color: rgb(186, 1, 1);
+                float: center;
+
+             }
+             div {
+                 width: 90%;
+                 border: 15px dashed darkcyan;
+                 padding: 20px;
+             }
+            h1 {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                z-index: 1;
+                background-color: saddlebrown;
+                color: seagreen;
+                width: 100%;
+                float: center;
+                list-style: none;
+                border: none;
+                height: 30px;
+                padding: 3px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Numbers</h1>
+        <ul>
+            <li>123</li>
+            <li>234</li>
+            <li>1-5
+               <ol>
+                   <li>123</li>
+                   <li>234</li>
+                   <li>345</li>
+               </ol>
+            </li>
+            <li>678</li>
+            <li>789</li>
+            <li>1-10
+                <ol>
+                    <li>12345</li>
+                    <li>678910</li>
+                </ol>
+            </li>
+        </ul>
+        <table>
+            <tr>
+                <td>15</td>
+                <td>15</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>60</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td>90</td>
+                <td>90</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>6</td>
+            </tr>
+
+        </table>
+        <p><div class="name">First Name
+            <input type="text" name="First Name" maxlength="40" />
+            Last Name
+            <input type="text" name="Last Name" maxlength="40" /> </div>
+            <div class="info">Credit Card Number
+            <input type="password" name="Credit Card Number" maxlength="40">
+            Social Security Number
+            <input type="text" value="Social Security" maxlength="20" />
+            <p>What is your deepest secret?</p>
+            <textarea name="comments" cols="50" rows="2">This is required!</textarea>
+            <br/>
+            How likely are you to become president?
+            <br/>
+            <input type="radio" name="president" value="Not a chance" />
+            Not a chance
+            <input type="radio" name="president" value="Highly unlikely" />
+            Highly unlikely
+            <input type="radio" name="president" value="It's possible" />
+            It's possible
+            <input type="radio" name="president" value="Very likely" />
+            Very likely
+            <input type="radio" name="president" value="I am the president" />
+            I am the president
+            </div>
+        </p>
+        <p><div class="Lorem">Lorem ipsum dolor sit amet</div>0, consectetur adipiscing elit. Donec laoreet ac elit fringilla vestibulum. Sed faucibus nulla justo, at fermentum turpis porta convallis.
+             Praesent nec dapibus purus. Maecenas nulla enim, rhoncus eu arcu ac, ultricies rhoncus nulla. Donec dui lacus, malesuada id aliquam eu, dignissim sit amet ante.
+              Cras nisl felis, vulputate non posuere quis, ultrices et elit. Nulla porttitor commodo metus, in cursus leo cursus nec.
+               Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+             Ut bibendum quis magna non dictum. Ut dictum eu orci eget vestibulum. Proin ultricies magna nec hendrerit aliquam. In dictum consequat quam sit amet viverra.
+            
+            Etiam vestibulum eros ac sodales pharetra. In a leo a urna ornare efficitur ac at dui. In et ante sit amet nisi finibus aliquet.
+             Maecenas hendrerit odio erat, a suscipit dolor imperdiet eget. Morbi dignissim, urna vitae varius sodales, mi sem bibendum odio, vitae tempor augue diam non mi.
+              Nulla purus lorem, sollicitudin id mauris in, cursus auctor nisi. Donec sollicitudin posuere felis sed pharetra. Fusce eget consequat erat, eget facilisis sem.
+               Donec sed urna erat. Phasellus semper nisi eget imperdiet facilisis.
+            
+            Mauris a diam vitae justo imperdiet volutpat vitae vitae odio. Nam fringilla enim vel tincidunt cursus. Proin eu orci lorem.
+             Praesent lorem lectus, vestibulum eu tincidunt vitae, viverra sollicitudin sapien. Maecenas euismod massa nec tempus scelerisque. Maecenas in molestie ante.
+              Nulla scelerisque, elit non malesuada vestibulum, mi lectus maximus mauris, quis congue tellus ipsum non elit. Sed eu metus tempor arcu gravida tristique quis in dolor.
+               Nulla ligula justo, imperdiet quis risus vestibulum, bibendum pulvinar neque. Sed lobortis est sapien, in luctus risus bibendum non.
+                Nam tempor, elit ac venenatis maximus, velit mauris hendrerit arcu, a laoreet tellus justo sit amet dolor. Quisque aliquam ultricies erat vitae rhoncus.
+                 Phasellus faucibus nec nisl nec tempus.
+            
+            Quisque rutrum nunc eu sodales mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam nunc nisl, molestie id dui id, ullamcorper consectetur lectus.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed viverra lectus, in placerat lorem. Curabitur metus ex, consectetur nec pretium in, tincidunt eget velit.
+              Quisque molestie in nunc non vestibulum. Suspendisse rutrum efficitur lectus in aliquam. Curabitur non consequat sapien.
+               Ut tempus odio non ipsum molestie fringilla in nec dolor.
+            
+            Donec ut pharetra augue. Vivamus rutrum risus sed justo fringilla, vitae pharetra dolor euismod. Vivamus porta nisl ut lacus gravida, a eleifend mi vulputate.
+             Ut elit ex, malesuada a eros in, eleifend pharetra ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Sed elementum lobortis lacus, at sagittis nunc eleifend id. Fusce vitae nisl dictum, iaculis urna eu, aliquet eros.
+               Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla nec augue eu nunc auctor imperdiet.
+                In eu sem id orci faucibus pretium at sit amet velit. Morbi ac pretium arcu, a accumsan tellus.</p>
+    </body>
+
+
+</html>
