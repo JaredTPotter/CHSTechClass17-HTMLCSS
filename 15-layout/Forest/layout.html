@@ -6,21 +6,123 @@
                 width: 750px;
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 color: #545465;
-                background-color: fuchsia;
+                background-color: black;
             }
-                
+             body { 
+                padding-top:44px;
+            }
+
+            h1 {
+                position: relative;
+                top:0px;
+                left:60px;
+            }
+
+            h2 {
+                position: absolute;
+                bottom:0;
+                right:0;
+            }
+
+            /* main list */
+            #main-menu {
+                /* Put it the top and not affected by scrolling */
+                position: fixed;
+                top:0;
+                left:0px;
+
+                /* fixed and absolute things dont stretch. so make it stretch */
+                width:100%;
+
+                /* Hide all the bullet points */
+                list-style: none;
+
+                /* Make sure it's above everything */
+                z-index: 1;
+                height:44px;
+                background:fuchsia;
+
+                /* take off the bullet list default margins and padding */
+                margin:0;
+                padding:0;
+            }
+            
+            /*Drop down lists */
+            #main-menu li ul
+            {
+                /* hide it until hover */
+                visibility: hidden;
+
+                /* remove the default bullets, margins and padding */
+                list-style: none;
+                margin:0;
+                padding:0;
+
+                /* pop it up out of the page so it is over everything */
+                position: absolute;
+                background: lightseagreen;
+            }
+
+            #main-menu li:hover ul {
+                visibility: visible;
+            }
+            
+            #main-menu>li {
+                float:left;
+                position: relative;
+            }
+
+            #main-menu a {
+                display:block;
+                margin:2px;
+                padding:10px;
+                background: salmon;
+                text-decoration: none;
+                color: brown;
+            }
+
+            #main-menu a:hover {
+                background: darkorange;
+            }    
             
         </style>
     </head>
     <a href="mailto:fk3332111@gmail.com">Email Maddie Stevens</a>
         <form action="http://www.google.com/subscribe.php">
             <p>Subscribe to my email</p>
-            <input type="text" name="email"
+            <input type="text" name="email">
+    
+           
+    </head>
+    <body>
+        <ul id="main-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a>
+                <ul>
+                    <li><a href="1.html">Email</a></li>
+                    <li><a href="2.html">Fall Out Boy</a></li>
+                    <li><a href="3.html">Stranger Things Season 2</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a>
+                <ul>
+                    <li><a href="1.html">Satellite</a></li>
+                    <li><a href="2.html">Road</a></li>
+                    <li><a href="3.html">Street View</a></li>
+                </ul>
+            </li>
+            <li><a href="map.html">Map</a>
+                <ul>
+                    <li><a href="1.html">Satellite</a></li>
+                    <li><a href="2.html">Road</a></li>
+                    <li><a href="3.html">Street View</a></li>
+                </ul>
+            </li>
+        </ul>
+
         
         
-        
-        
-        /form>
+   
     <body>
          <p>  Cras nec diam convallis, malesuada ante vel, auctor est. Phasellus tristique blandit nulla, ut faucibus eros. Donec a ipsum tortor. Nullam accumsan finibus facilisis. Phasellus ut dui ut lacus ultricies venenatis vitae in eros. Phasellus vel nisi eu quam rutrum pretium ut sit amet arcu. Cras vel eleifend mi, vitae eleifend risus. Aliquam mollis eros in porttitor facilisis. Phasellus fermentum ex auctor convallis vestibulum. Suspendisse potenti. In dui nisl, sollicitudin nec metus non, vehicula lobortis mauris. Maecenas eget neque nulla.
 
