@@ -3,13 +3,34 @@
             <title>
                 Forms Assignment
             </title>
+            <style>
+input {
+    background: lightcoral;
+    border: gray solid 3px;
+}  
+
+input:focus, input:hover {
+    border: red solid 2px;
+
+}
+
+*:focus {
+    outline: 3px dotted blueviolet;
+    
+}
+
+input[type="submit"] {
+    outline: dashed;
+
+}
+            </style>
      </head>
 
      <body>
         <form action="https://www.google.com/" method="get">
 
         <p>Username:
-            <input type="text" name="username" size="25"
+            <input type="text" name="q" size="25"
             maxlength="35"/>
             </p>
 
