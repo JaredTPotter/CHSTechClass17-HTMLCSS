@@ -18,21 +18,52 @@
                 right:0;
             }
 
+            /* main list */
             #main-menu {
+                /* Put it the top and not affected by scrolling */
                 position: fixed;
                 top:0;
                 left:0px;
+
+                /* fixed and absolute things dont stretch. so make it stretch */
+                width:100%;
+
+                /* Hide all the bullet points */
                 list-style: none;
+
+                /* Make sure it's above everything */
                 z-index: 1;
                 height:44px;
                 background:aliceblue;
-                width:100%;
+
+                /* take off the bullet list default margins and padding */
                 margin:0;
                 padding:0;
             }
+            
+            /*Drop down lists */
+            #main-menu li ul
+            {
+                /* hide it until hover */
+                visibility: hidden;
 
-            #main-menu li {
+                /* remove the default bullets, margins and padding */
+                list-style: none;
+                margin:0;
+                padding:0;
+
+                /* pop it up out of the page so it is over everything */
+                position: absolute;
+                background: lightblue;
+            }
+
+            #main-menu li:hover ul {
+                visibility: visible;
+            }
+            
+            #main-menu>li {
                 float:left;
+                position: relative;
             }
 
             #main-menu a {
@@ -55,9 +86,27 @@
     <body>
         <ul id="main-menu">
             <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="map.html">Map</a></li>
+            <li><a href="about.html">About</a>
+                <ul>
+                    <li><a href="1.html">Satellite</a></li>
+                    <li><a href="2.html">Road</a></li>
+                    <li><a href="3.html">Street View</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a>
+                <ul>
+                    <li><a href="1.html">Satellite</a></li>
+                    <li><a href="2.html">Road</a></li>
+                    <li><a href="3.html">Street View</a></li>
+                </ul>
+            </li>
+            <li><a href="map.html">Map</a>
+                <ul>
+                    <li><a href="1.html">Satellite</a></li>
+                    <li><a href="2.html">Road</a></li>
+                    <li><a href="3.html">Street View</a></li>
+                </ul>
+            </li>
         </ul>
 
         <h1>This is my header</h1>
