@@ -4,6 +4,7 @@
         <style>
         body {
             font-size: 20px;
+            margin-top: 100px;
             }
         .colors {
             width: 100%;
@@ -26,14 +27,63 @@
         }
         .header {
             position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
         }
+        /*
         .beginning {
             margin-top: 50px;
+        }
+        */
+        #relative {
+            position: relative;
+            left: 100px;
+        }
+        #menu {
+            top: 0px;
+            right: 0px;
+            float: right;
+            list-style: none;
+        }
+        #title {
+            float: left;
+        }
+        #menu li {
+            float: right;
+            display: block;
+            margin: 5px;
+            padding: 15px;
+        }
+        #menu a {
+            text-decoration: none;
+            color:darkslategray;
+        }
+        #home {
+            background-color: blanchedalmond;
+        }
+        #Chartreuse {
+            background-color: chartreuse;
+        }
+        #Potatoes {
+            background-color: rgb(191, 127, 127); 
+        }
+        #Fuschia {
+            background-color: fuchsia;
         }
         </style>
     </head>
     <body>
-        <h1 class="header"> The True Gospel</h1>
+        <div class="header">
+            <h1 id="title"> The True Gospel</h1>
+            <ul id="menu">
+                <li id="home"><a href="index.html">Home</a></li>
+                <li id="Chartreuse"><a href="Chartreuse.html">Chartreuse</a></li>
+                <li id="Potatoes"><a href="Potatoes.html">Potatoes</a></li>
+                <li id="Fuschia"><a href="Fuschia.html">Fuschia</a></li>
+            </ul>
+
+        </div>
         <div>
         <h1 class="beginning">Potatoes</h1>
         </div>
@@ -47,7 +97,7 @@
         <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at aliquam mauris. Curabitur in odio diam. Nunc diam augue, blandit nec sagittis nec, tincidunt in nisl. Fusce volutpat nisi sed ante luctus accumsan. Pellentesque eu porta nunc, non posuere leo. Morbi accumsan, nulla sit amet pulvinar laoreet, magna est hendrerit velit, ut ultricies lorem nibh sit amet ligula. Pellentesque id ipsum et massa pulvinar bibendum. Vestibulum condimentum euismod augue in accumsan. Suspendisse elementum, nulla eu aliquet suscipit, nisl nibh elementum lorem, ac vulputate lectus lacus id enim. Maecenas feugiat ex aliquet risus eleifend feugiat nec ut nisi. Duis nulla tellus, pretium at vehicula ut, malesuada at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
             </p>
-            <p>
+            <p id="relative">
                 Pellentesque eget dolor sit amet est porta fermentum. Pellentesque eleifend suscipit velit, et laoreet justo consequat vel. Fusce euismod feugiat dolor ac finibus. Nulla vitae nunc sit amet nisi finibus facilisis. Aliquam at aliquet nibh. In hac habitasse platea dictumst. Sed lectus justo, rhoncus ut hendrerit ac, congue ut sapien.
             </p>
             <p> 
