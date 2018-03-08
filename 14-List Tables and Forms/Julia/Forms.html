@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            * {
+               background-color: rgba(234, 253, 255, 0.74);
+                color: rgb(97, 45, 3);
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+                background-color: rgb(196, 206, 14)
+            }
+            input {
+                margin:  5px;
+                padding: 2px;
+                height: 25px;
+                border: 2px solid rgb(97, 45, 3);
+                border-radius: 5%;
+               
+            }
+            input:active {
+                
+                outline:rgb(97, 45, 3) solid 3px;
+                background: rgb(97, 45, 3);
+            }
+             button {
+                background-image: url("../../05-Images/Julia/brownbag.gif");
+                height: 25px;
+                border-bottom: 4px solid rgb(97, 45, 3);
+                color: white;
+             }
+             .name {
+                background-color: rgb(36, 1, 1);
+                color: rgb(186, 1, 1);
+                float: center;
+
+             }
+             .info{
+                background-color: rgb(24, 49, 3);
+                color: rgb(200, 53, 3);
+                float: left;
+             }
+             div {
+                 width: 90%;
+                 border: 15px dashed darkcyan;
+                 padding: 20px;
+             }
+        </style>
+    </head>
+    <body>
+        <form action="https://www.google.com/search" action="post">
+        <p><div class="name">First Name
+            <input type="text" name="First Name" maxlength="40" />
+            Last Name
+            <input type="text" name="Last Name" maxlength="40" /> </div>
+            <div class="info">Credit Card Number
+            <input type="password" name="Credit Card Number" maxlength="40">
+            Social Security Number
+            <input type="text" value="Social Security" maxlength="20" />
+            <p>What is your deepest secret?</p>
+            <textarea name="comments" cols="50" rows="2">This is required!</textarea>
+            <br/>
+            How likely are you to become president?
+            <br/>
+            <input type="radio" name="president" value="Not a chance" />
+            Not a chance
+            <input type="radio" name="president" value="Highly unlikely" />
+            Highly unlikely
+            <input type="radio" name="president" value="It's possible" />
+            It's possible
+            <input type="radio" name="president" value="Very likely" />
+            Very likely
+            <input type="radio" name="president" value="I am the president" />
+            I am the president
+            <br/>
+            Pick which people you know:
+            <input type="checkbox" name="people" value="Peter Smith" />
+            Peter Smith
+            <input type="checkbox" name="people" value="Henry Burton" />
+            Henry Burton
+            <input type="checkbox" name="people" value="Fred Johnson" />
+            Fred Johnson
+            <input type="checkbox" name="people" value="Olivia Thompson" />
+            Olivia Thompson
+            <input type="checkbox" name="people" value="Allison Carpenter" />
+            Allison Carpenter
+           <fieldset> What kind of pet do you have?
+            <select name="pets">
+                <option value="dog">dog</option>
+                <option value="cat">cat</option>
+                <option value="lizard">lizard</option>
+                <option value="bird">bird</option>
+                <option value="other">other</option>
+                <option value="none">none</option>
+            </select>
+            What is your pet's name?
+            <input type="text" name="pet-name" maxlength="50" />
+            </fieldset>
+            Have you ever done any of these things?(Hold Ctrl or Cmd to select more than one)
+            <select name="crimes" size="" multiple="multiple">
+                <option value="jaywalk">jaywalk</option>
+                <option value="graffiti">graffiti</option>
+                <option value="loiter">loiter</option>
+                <option value="steal">steal</option>
+                <option value="embezzle">embezzle</option>
+                <option value="murder">murder</option>
+            </select>
+            Upload your tax return from last year:
+            <input type="file" name="taxes" />
+            <input type="submit" value="Upload" />
+            Please enter your email:
+            <input type="text" name="email" />
+            <input type="submit" name="email" value="submit" />
+            Please enter the name of your high school:
+            <input type="text" name="high school" />
+            <input type="image" src="../../05-Images/Julia/face.png" width="90" height="20" />
+            <button>Click if you live in the US</button>
+            <input type="hidden" name="bookmark" value="info" />
+            <label>Gender: <input type="text" name="gender" /></label>
+            Find out what we know about you...
+            <input type="search" name="Life meaning" placeholder="We know..." />
+            <input type="submit" value="Search" /></div>
+        </p>
+        
+        </form>
+
+    </body>
+</html>
