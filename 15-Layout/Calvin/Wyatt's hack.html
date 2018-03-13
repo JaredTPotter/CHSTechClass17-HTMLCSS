@@ -10,8 +10,30 @@
             #a {
                 font-family: Arial;
                 display: block;
+                list-style: none;
                 height: 20px;
-                width: 100%
+                width: 100%;
+                margin: 3px;
+                padding:3px;
+            }
+            #a>li {
+                float:left;
+                position:relative;
+                text-decoration: none;
+            }
+            li {
+                margin: 5px;
+                padding: 3px;
+                background-color:bisque;
+            }
+            #a li:hover ul {
+                visibility: visible;
+            }
+            #a li ul {
+                visibility: hidden;
+                list-style: none;
+                padding: 3px;
+                position:absolute;
             }
         </style>
     <head>
@@ -21,12 +43,19 @@
         <img src="">
         <div>
             <ul id="a">
-                <li><b><a href="">Sci-Fi</a></b></li>
-                <li><b><a href="">WWII</a></b></li>
-                <li><b><a href="">Ancient</b></li>
-                <li><b><a href="">12mm</a></b></li>
-                <li><b><a href="">Modern</a></b></li>
-                <li><b><a href="">6mm</a></b></li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/zantin.html">Sci-Fi</a></b></li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/1914.html">WWI</a></b></li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/lateroman.html">Ancient</b></li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/late-21st-century.html">15mm</a></b>
+                    <ul id="sub-a">
+                        <li><a href="">Sci-fi</a></li>
+                        <li><a href="">Modern</a></li>
+                        <li><a href="">WWI</a></li>
+                        <li><a href="">Romans</a></li>
+                    </ul>
+                </li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/modern.html">Modern</a></b></li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/6mmscifi.html">6mm</a></b></li>
             </ul>
         </div>
     </body>
