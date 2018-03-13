@@ -69,7 +69,7 @@
                  border: 15px dashed darkcyan;
                  padding: 20px;
              }
-            h1 {
+            #main-menu{
                 position: fixed;
                 top: 0px;
                 left: 0px;
@@ -77,17 +77,37 @@
                 background-color: saddlebrown;
                 color: seagreen;
                 width: 100%;
-                float: center;
-                list-style: none;
+                float: right;
                 border: none;
-                height: 30px;
+                height: 43px;
                 padding: 3px;
+                margin: 0px;
+            }
+            #main-menu ol {
+                margin: 0px;
+                padding: 0px;
+            }
+            #main-menu li {
+                float: left;
+                width: 160px;
+                height: 19px;
+                padding: 1px;
+                text-align: center;
+                list-style: none;
+
             }
             
         </style>
     </head>
     <body>
-        <h1>Numbers</h1>
+        <div id="main-menu"><ol>
+                <li>Numbers</li>
+                <li>More Numbers</li>
+                <li>Even More Numbers</li>
+                <li>Form</li>
+                <li>Lorem Ipsum</li>
+        </ol></div>
+        
         <ul>
             <li>123</li>
             <li>234</li>
