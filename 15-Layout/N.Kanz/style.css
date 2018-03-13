@@ -1,22 +1,31 @@
-body{
-    width: 800px;
-    font-family: Arial, Helvetica, sans-serif; 
-    color: rgb(255, 255, 255);
+body{ width: 750px; 
+    font-family: Arial, Verdana, sans-serif; 
+    color: #665544;
 }
-h{
-    padding: 10px;  
+p.sloth{
+    margin-top: 100px;
+    position: relative; 
+    top: 70px; left: 
+    70px;
 }
-p{
-    width: 450px;
+h1 { 
+    position: fixed; 
+    top: 0px; 
+    left: 50px; 
+    padding: 10px; 
+    margin: 0px; 
+    width: 100%; 
+    background-color: #efefef;
+    z-index: 10;
 }
-h1{
-    color:FF4000
-}
-div.Information{
-text-align: justify;
-color: royalblue;
-}
-div.Information h{
-    text-align: right;
-    padding: 12px;
+blockquote {    
+    float: right;    
+    width: 275px;    
+    font-size: 130%;    
+    font-style: italic;    
+    font-family: Georgia, Times, serif;    
+    margin: 0px 0px 10px 10px;    
+    padding: 10px;    
+    border-top: 1px solid #665544;    
+    border-bottom: 1px solid #665544;
 }
