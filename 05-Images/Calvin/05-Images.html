@@ -1,21 +1,47 @@
 <html>
         <head>
             <title>Calvin Potatoes</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <style type="text/css">
             p {
                 width: 500px;
             }
+            .small {
+                width: 25px;
+            }
+            .gigantic {
+                width: 50%;
+                min-width: 250px;
+                max-width: 3000px;
+            }
+            .medium {
+                width: 100%;
+            }
+            .azure {
+                background-color: antiquewhite;
+            }
             </style>
         </head>
         <body>
-            <p> 
-                Potatoes are great they are a thing that you eat with your mouth and sometimes they're dirty,
-                sometimes they're not.<img src="potatoes.jpg" width="25"/>  If they're dirty, you might not want to eat them, because that would be like eating dirt, with some potatoes on the side.
-                You wouldn't want to do that would you? Maybe some more potatoe text? His Lorem Ipsum is a bit longer, so I'll add some more potatoes text,
-                because potatoe text is much better than any lorem ipsum! So entertaining! So fun! So great! So potatoey!
-            </p>
-            <img src="cordoba1.jpg"/>
-            <img src="../Images/bob.jpg"/>
-            <img src="https://cdn1.medicalnewstoday.com/content/images/articles/280/280579/potatoes-can-be-healthful.jpg" title="potatoes" alt="potatoes" width="7000"/>
+            <div class="container">
+                <div class="row azure">
+                    <div class="col-8">
+                        <p> 
+                            Potatoes are great they are a thing that you eat with your mouth and sometimes they're dirty,
+                            sometimes they're not.<img src="potatoes.jpg" class="small"/>  If they're dirty, you might not want to eat them, because that would be like eating dirt, with some potatoes on the side.
+                            You wouldn't want to do that would you? Maybe some more potatoe text? His Lorem Ipsum is a bit longer, so I'll add some more potatoes text,
+                            because potatoe text is much better than any lorem ipsum! So entertaining! So fun! So great! So potatoey!
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../Images/bob.jpg" class="medium"/>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <img src="https://cdn1.medicalnewstoday.com/content/images/articles/280/280579/potatoes-can-be-healthful.jpg" title="potatoes" alt="potatoes" class="gigantic"/>
+                    </div>
+                </div>
+            </div>
         </body>
     </html>
