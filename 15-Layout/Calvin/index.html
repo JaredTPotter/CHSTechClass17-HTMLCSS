@@ -47,6 +47,9 @@
             float: right;
             list-style: none;
         }
+        #menu>li {
+            position: relative;
+        }
         #title {
             float: left;
         }
@@ -97,6 +100,28 @@
         #Fuschia:active {
             background-color: rgb(191, 127, 127);
         }
+        #menu li ul {
+            visibility: hidden;
+            position: absolute; 
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(0, 151, 20);
+            color: white;
+            top: 53px;
+            left: 0px;
+        }
+        #menu li:hover ul {
+            visibility:visible;
+        }
+        #menu li ul li {
+            margin: 0;
+        }
+        #menu li ul li:hover {
+            background-color: rgb(0, 107, 14);
+        }
+        #menu li ul li a {
+            color: white;
+        }
         </style>
     </head>
     <body>
@@ -106,7 +131,14 @@
                 <li id="home"><a href="index.html">Home</a></li>
                 <li id="Chartreuse"><a href="Chartreuse.html">Chartreuse</a></li>
                 <li id="Potatoes"><a href="Potatoes.html">Potatoes</a></li>
-                <li id="Fuschia"><a href="Fuschia.html">Fuschia</a></li>
+                <li id="Fuschia">
+                    <a href="Fuschia.html">Fuschia</a>
+                    <ul>
+                        <li> <a href="inferiorpurple.html">Inferior Purple</a></li>
+                        <li> <a href="AwfulApples.html">Awful Apples</a></li>
+                        <li> <a href="Perfect">Perfect</a></li>
+                    </ul>
+                    </li>
             </ul>
 
         </div>
