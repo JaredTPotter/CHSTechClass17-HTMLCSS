@@ -4,10 +4,9 @@
         <style>
             * {
                 margin: 10px;
-                background-color: rgba(234, 253, 255, 0.74);
                 color: rgb(97, 45, 3);
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
-                background-color: rgb(196, 206, 14)
+                background-color: rgb(196, 206, 14);
                 position: static;
                 padding-top: 30px;
             }
@@ -69,7 +68,7 @@
                  border: 15px dashed darkcyan;
                  padding: 20px;
              }
-            h1 {
+            #main-menu{
                 position: fixed;
                 top: 0px;
                 left: 0px;
@@ -77,17 +76,85 @@
                 background-color: saddlebrown;
                 color: seagreen;
                 width: 100%;
-                float: center;
-                list-style: none;
+                float: right;
                 border: none;
-                height: 30px;
+                height: 43px;
                 padding: 3px;
+                margin: 0px;
+            }
+            #main-menu ol {
+                margin: 0px;
+                padding: 0px;
+            }
+            #main-menu li {
+                float: left;
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #main-menu li>a {
+                width: 160px;
+                height: 19px;
+                padding: 1px;
+                margin: 1px;
+                text-align: center;
+                border: 1px solid rgb(186, 1, 1);
+                text-decoration: none;
+                display: block;
+            }
+            #main-menu li ul {
+                margin: 0px;
+                padding: 0px;
+                border: inherit;
+                text-align: inherit; 
+                display: hidden;  
+            }
+            #main-menu li ul li {
+                list-style-type: armenian;
             }
             
         </style>
     </head>
     <body>
-        <h1>Numbers</h1>
+        <div id="main-menu"><ol>
+                <li><a href="#.html">Numbers</a>
+                    <ul>
+                        <li>hello</li>
+                        <li>hello2</li>
+                        <li>hello3</li>
+                    </ul>
+            </li>
+                <li><a href="#.html">More Numbers</a>
+                    <ul>
+                            <li>hello</li>
+                            <li>hello2</li>
+                            <li>hello3</li>
+                        </ul>
+                </li>
+                <li><a href="#.html">Even More Numbers</a>
+                    <ul>
+                            <li>hello</li>
+                            <li>hello2</li>
+                            <li>hello3</li>
+                        </ul>
+                </li>
+                <li><a href="#.html">Form</a>
+                    <ul>
+                            <li>hello</li>
+                            <li>hello2</li>
+                            <li>hello3</li>
+                        </ul>
+                </li>
+                <li><a href="#.html">Lorem Ipsum</a>
+                    <ul>
+                            <li>hello</li>
+                            <li>hello2</li>
+                            <li>hello3</li>
+                        </ul>
+                </li>
+        </ol></div>
+        
         <ul>
             <li>123</li>
             <li>234</li>
