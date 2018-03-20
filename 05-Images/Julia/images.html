@@ -1,18 +1,34 @@
 <html>
     <head>
         <title>Adding Images</title>
+        <style>
+            img {
+                height: 35%;
+                max-height: 100px;
+                float: right;
+            }
+            img.mars{
+                float:left;
+            }
+            img.katniss{
+                position: fixed;
+                z-index: 1;
+                margin: 0px;
+            }
+        </style>
     </head>
     <body>
         
         
-        <p> <img src="https://www.sideshowtoy.com/photo_100122_thumb.jpg" alt="Jawas Live Here" title="We Live Here" width="25" alkgn="left"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at interdum dolor. Donec vel ultrices sem.
+        <p> <img class="jawa" src="https://www.sideshowtoy.com/photo_100122_thumb.jpg" alt="Jawas Live Here" title="We Live Here"/>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at interdum dolor. Donec vel ultrices sem.
             Praesent pellentesque, magna sed semper facilisis, nibh risus cursus felis, ut pretium leo ante a est.
-            Etiam placerat rhoncus enim in iaculis.<img src="mars.jpg" alt="Mars" title="" height="25" align="left"/> Aenean maximus egestas bibendum. Donec leo ante, tempor vel libero ac, laoreet egestas tortor.
+            Etiam placerat rhoncus enim in iaculis. Aenean maximus egestas bibendum. Donec leo ante, tempor vel libero ac, laoreet egestas tortor.
             Suspendisse finibus leo sed sem congue dignissim. Sed pellentesque augue in felis aliquam, ac semper magna euismod.
-            Nunc euismod egestas diam, ut scelerisque purus lacinia et.
+            Nunc euismod egestas diam, ut scelerisque purus lacinia et.<img class="mars" src="mars.jpg" alt="Mars" title=""/>
             Praesent semper ullamcorper iaculis. Nulla mauris leo, tempor ut condimentum non, pretium eget quam.
             Curabitur a urna at lectus porttitor luctus. Ut erat nisi, imperdiet posuere eros nec, iaculis gravida ipsum.
-            Cras molestie eget ipsum at finibus.</p>
-            <img src"katniss-everdeen_55041365-1920x1080-1920x1080.jpg" />
+            Cras molestie eget ipsum at finibus.<img class="katniss" src="katniss-everdeen_55041365-1920x1080-1920x1080.jpeg" alt="Katniss Everdeen" title="" /></p>
+            
     </body>
 </html>
