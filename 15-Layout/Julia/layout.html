@@ -4,7 +4,6 @@
         <style>
             * {
                 margin: 10px;
-                background-color: rgba(234, 253, 255, 0.74);
                 color: rgb(97, 45, 3);
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
                 background-color: rgb(196, 206, 14);
@@ -89,23 +88,73 @@
             }
             #main-menu li {
                 float: left;
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                display: block; 
+            }
+
+            #main-menu li>a {
                 width: 160px;
                 height: 19px;
                 padding: 1px;
+                margin: 1px;
                 text-align: center;
-                list-style: none;
-
+                border: 1px solid rgb(186, 1, 1);
+                text-decoration: none;
+            }
+            #main-menu li ul {
+                margin: 0px;
+                padding: 0px;
+                border: inherit;
+                text-align: inherit; 
+                float: center;
+                
+            }
+            #main-menu li ul li {
+                list-style-type: armenian;
+                
             }
             
         </style>
     </head>
     <body>
         <div id="main-menu"><ol>
-                <li>Numbers</li>
-                <li>More Numbers</li>
-                <li>Even More Numbers</li>
-                <li>Form</li>
-                <li>Lorem Ipsum</li>
+                <li><a href="#.html">Numbers</a>
+                    <ul>
+                        <li>hello</li>
+                        <li>hello2</li>
+                        <li>hello3</li>
+                    </ul>
+            </li>
+                <li><a href="#.html">More Numbers</a>
+                    <ul>
+                            <li>hello</li>
+                            <li>hello2</li>
+                            <li>hello3</li>
+                        </ul>
+                </li>
+                <li><a href="#.html">Even More Numbers</a>
+                    <ul>
+                            <li>hello</li>
+                            <li>hello2</li>
+                            <li>hello3</li>
+                        </ul>
+                </li>
+                <li><a href="#.html">Form</a>
+                    <ul>
+                            <li>hello</li>
+                            <li>hello2</li>
+                            <li>hello3</li>
+                        </ul>
+                </li>
+                <li><a href="#.html">Lorem Ipsum</a>
+                    <ul>
+                            <li>hello</li>
+                            <li>hello2</li>
+                            <li>hello3</li>
+                        </ul>
+                </li>
         </ol></div>
         
         <ul>
