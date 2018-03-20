@@ -1,22 +1,19 @@
-body{ width: 750px; 
+body{ 
+    width: 750px; 
     font-family: Arial, Verdana, sans-serif; 
     color: #665544;
 }
-p.sloth{
-    margin-top: 100px;
+p{
+    margin-top: 10px;
     position: relative; 
-    top: 70px; left: 
-    70px;
+    top: 10px; 
+    left:0px;
+    padding: 1.17px;
 }
 h1 { 
-    position: fixed; 
+    position: relative; 
     top: 0px; 
-    left: 50px; 
-    padding: 10px; 
-    margin: 0px; 
-    width: 100%; 
-    background-color: #efefef;
-    z-index: 10;
+    left: 60px; 
 }
 blockquote {    
     float: right;    
@@ -28,4 +25,45 @@ blockquote {
     padding: 10px;    
     border-top: 1px solid #665544;    
     border-bottom: 1px solid #665544;
+}
+#main-slothu {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    list-style: none;
+    z-index: 1 ;
+    height: 40px;
+    background-color: chocolate;
+    margin: 0px;
+    padding:0px; 
+}
+#mani-slothu li ul{
+visibility: hidden;
+list-style: none;
+margin: 0px;
+padding: 0px;
+position: absolute;
+background: goldenrod;
+}
+#main-slothu li:hover ul{
+    visibility: visible;
+}
+#main-slothu>li{
+    float: left;
+    position: relative;
+}
+#main-menu li:hover ul {
+    visibility: visible;
+}
+#main-slothu a{
+    display: block;
+    margin: 2px;
+    padding: 10px;
+    background: lawngreen;
+    text-decoration: none;
+    color: indianred;
+}
+#main-slothu a:hover{
+    background: rgb(0, 40, 151);
 }
