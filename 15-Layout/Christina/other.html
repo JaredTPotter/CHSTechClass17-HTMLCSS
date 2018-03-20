@@ -25,7 +25,6 @@
         float: left;
         z-index: 20px;
         margin: 9px;
-        height: 40px;
       }
 
       a {
@@ -35,12 +34,39 @@
         display: block;
         margin: 5px;
         padding: 37px;
+        display: block;
+        white-space: nowrap;
+        text-decoration: none;
       }
 
       a:hover {
         background-color:darkblue;
         color:gainsboro;
       }
+
+      #fun li ul {
+        visibility: hidden;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        color: cornsilk;
+        top:122px;
+        left: -8px;
+
+      }
+      #fun li:hover ul {
+        visibility: visible;
+      }
+      #fun li ul:hover {
+        color: cornsilk; 
+      }
+      #fun>li {
+        float:left;
+        position:relative;
+      }
+      
+
 
     </style>
 
@@ -72,11 +98,15 @@
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
       culpa qui officia deserunt mollit anim id est laborum.</p> 
-     <ul>
-    <ul>
+    <ul id="fun">
       <li><a href="Yay">About</a></li>
       <li><a href="Wow">Contact</a></li>
       <li><a href="Woo">Map</a>
+        <ul>
+          <li><a href="streetview">Street View</a></li>
+          <li><a href="helicopter">From my personal helicopter</a></li>
+          <li><a href="wierd">Wierd View</a></li>
+        </ul>
       </li>
       </ul>        
   </body>
