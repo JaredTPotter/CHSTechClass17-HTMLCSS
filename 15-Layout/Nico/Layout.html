@@ -7,11 +7,12 @@
 
     <style>
     body {
-        width: 750px;
+        width: 100%;
         font-family: Arial, Helvetica, sans-serif;
-        color:white;
+        color:skyblue;
         position: relative;
         top: 100px;
+        background:white;
         
     }
     h1 {
@@ -25,49 +26,77 @@
     h2 {
         position: absolute;
         top: 50px;
-        left: 500px;
+        left: 700px;
         color:blueviolet
     }
 
     #menu {
         position: fixed;
-        top: 0;
-        left: 0;
+        top: 0px;
+        left: 0px;
         list-style: none;
         height: 75px;
-        background: lightseagreen;
+        background: skyblue;
         width: 100%;
         z-index: 1;
+
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #menu li ul {
+        visibility:hidden;
+        list-style: none;
+        margin:0;
+        padding:0;
+
+        position: absolute;
+        background: skyblue;
     }
     
+    #menu li:hover ul {
+        visibility: visible;
+    }
+
     #menu a {
         display: block;
         margin: 10px;
         padding: 20px;
-        background: darksalmon;
+        background: whitesmoke;
         text-decoration: none;
         color: cornflowerblue;
     }
 
-    #menu li {
+    #menu>li  {
         float: left;
+        position: relative;
     }
 
     p {
         width: 450px;
-        color:blueviolet;
+        color:black;
+        float: left;
+        margin: 5px;
+
     }
 
     p.paragraph2 {
-        position: relative;
-        top: 10px;
-        left: 100px;
+      
 
     }
 
     #menu a:hover {
         background: lightsalmon;
         color: crimson;
+    }
+
+
+    #menu ul:hover {
+
+    }
+
+    img {
+       margin: 0px;
     }
     
     /*Left off on page 373 */
@@ -77,14 +106,28 @@
 
 <body>
 
+    <img src="https://www.filesilo.co.uk/wp-content/uploads/2015/03/turnaround03_opener.jpg">
+
     <ul id="menu">
         <li><a href="Home.html">Home</a></li>
-        <li><a href="Welcome.html">Welcome</a></li>
-        <li><a href="Sign-up.html">Sign-up</a></li>
-        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="about.html">About</a>
+            <ul>  
+                <li><a href="Welcome.html">Welcome</a></li>
+                <li><a href="Sign-up.html">Sign-up</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </li>
+
+        <li><a href="map.html">Map</a>
+            <ul>
+                <li><a href="1.html">Satellite</a></li>
+                <li><a href="2.html">Road</a></li>
+                <li><a href="3.html">Street View</a></li>
+            </ul>
+        </li>
     </ul>
     <h1>
-        Random Text that is in Latin (Garbled)
+        Information on Lorem Ipsum
     </h1>
     <p>
         Next to the national circuit kids the content cartridge. A virtual god doubles as a sniff. Your tiny offset sandwiches the polished origin.
