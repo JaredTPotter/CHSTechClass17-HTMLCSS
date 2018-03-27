@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+        <style>
+            * {
+                font-family: Arial;
+            }
+            body {
+                font-family: Arial;
+                background-image: url("http://www.thisiscolossal.com/wp-content/uploads/2014/06/8.gif");
+                background-repeat: no-repeat;
+            }
+            background:hover {
+                display: block;
+                background-repeat: no-repeat;
+                height:1000px ;
+                width: 780px ;
+            }
+            .divA {
+                height: 50%;
+                width: 50%;
+                background-size: contain;
+            }
+            #a {
+                font-family: Arial;
+                display: block;
+                list-style: none;
+                height: 20px;
+                width: 100%;
+                margin: 3px;
+                padding:3px;
+            }
+            #a>li {
+                float:left;
+                position:relative;
+                text-decoration: none;
+            }
+            li {
+                margin: 5px;
+                padding: 3px;
+                background-color:bisque;
+            }
+            #a li:hover ul {
+                visibility: visible;
+            }
+            #a li ul {
+                visibility: hidden;
+                list-style: none;
+                padding: 3px;
+                position:absolute;
+            }
+        </style>
+    <head>
+        <title>Sir Fredrick Hamilton III</title>
+    </head>
+    <body background="">
+        <img src="">
+        <div  id="divA">
+            <ul id="a">
+                <li><b><a href="http://khurasanminiatures.tripod.com/zantin.html">Sci-Fi</a></b></li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/1914.html">WWI</a></b></li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/lateroman.html">Ancient</b></li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/late-21st-century.html">15mm</a></b>
+                    <ul id="sub-a">
+                        <li><a href="">Sci-fi</a></li>
+                        <li><a href="">Modern</a></li>
+                        <li><a href="">WWI</a></li>
+                        <li><a href="">Romans</a></li>
+                    </ul>
+                </li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/modern.html">Modern</a></b></li>
+                <li><b><a href="http://khurasanminiatures.tripod.com/6mmscifi.html">6mm</a></b></li>
+            </ul>
+        </div>
+    </body>
+</html>
