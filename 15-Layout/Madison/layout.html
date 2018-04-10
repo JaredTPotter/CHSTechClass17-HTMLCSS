@@ -1,34 +1,403 @@
 <html>
     <head>
         <title>Layout</title>
-    </head>
-    <body>
-        <h1>Header One</h1>
-        <p>My name is Madison Stephens.  
-            I am really cool
-        </p>
-                <style>
-                    body {
-                        width: 750px;
-                        font-family:Arial, Helvetica, sans-serif;
-                        color: #665544; 
-                    }
-                    h1 {
+        <style>
+                body {
+                    width: 750px;
+                    font-family:Arial, Helvetica, sans-serif;
+                    color: #665544; 
+                }
+                h1 {
+                    background-color: #efefef;
+                    position: fixed;
+                    top: 0px;
+                    left: 0px;
+                    padding: 10px;
+                    margin: 0px;
+                    width: 100%;
+                    z-index: 10;
+                }
+                p {
+                    position: relative;
+                    top: 70px;
+                    left: 70px;
+                }
+                blockquote {
+                    float: right;
+                    width: 275px;
+                    font-size: 130%;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    margin: 0px,0px,10px,10px;
+                    padding: 10px;
+                    border-top: 1px solid #665544;
+                    border-bottom: 1px solid #665544;
+                }
+                a {
+                    color:salmon;
+                }
+                a:hover {
+                    color: rgb(240, 169, 146);
+
+                }
+                body {
+                        width: 960px;
+                        margin: 0 auto;
+                }
+                #content-stuff {
+                        overflow: auto;
+                        height: 100%;
+                }
+                #nav, #footer, #featured {
                         background-color: #efefef;
                         padding: 10px;
-                        position: absolute;
+                        margin: 10px;
+                        text-align: center;
+                }
+                .column1, .column2, .column3 {
+                        background-color: #efefef;
+                        width: 300px;
+                        float: left;
+                        margin: 10px;
+                }
+                li {
+                        color:salmon;
+                        display: inline;
+                        padding: 5px;
+                }
+                li:hover {
+                        color: darksalmon
+                }
+                #home {
+                        position: relative;
                         top: 0px;
-                        left: 500px;
-                        width: 250px;
-                        
-                    }
-                    p {
-                        width: 450px;
-                    }
-
-                </style>
-
-
+                        left: 250px;
+                        right: 10px;
+                        width: 100%;
+                        list-style: none;
+                        z-index: 1;
+                        height: 44px;
+                        margin: 0;
+                        padding: 0;
+                }
+                #home li ul {
+                        visibility: hidden;
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        position: absolute;
+                }
+                #home li:hover ul {
+                        visibility: visible;
+                }
+                #home>li {
+                        float: left;
+                        position: relative;
+                }
+                #home a {
+                        display: block;
+                        margin: 2px;
+                        padding: 10px;
+                        background: salmon;
+                        text-decoration: none;
+                        color: white;
+                }
+                #home a:hover {
+                        background:rgb(240, 169, 146);
+                }
+            </style>
+    </head>
+    <body>
+        <h1>Bee Movie and Lorem Ipsum</h1>
+        <h2>hi</h2>
+        <h3>hi</h3>
+        <h4>hi</h4>
+        <blockquote>
+            "Madison Stephens is cool" -Madison Stephens 2018
+        </blockquote>
+            <div id="google1">
+        <a href="http://www.google.com">Google 1</a>
+            </div>
+            <div id="google2">
+        <a href="http://www.google.com">Google 2</a>
+            </div>
+            <div id="google3">
+        <a href="http://www.google.com">Google 3</a>
+            </div>
+            <div id="google4">
+        <a href="http://www.google.com">Google 4</a>
+            </div>
+        <div id="header-thing">
+            <h5>Madison Stephens</h5>
+                <div id="nav">
+                                <ul id="home">
+                                        <li><a href="1.html">Home</a>
+                                                <ul>
+                                                        <li><a href="1.html">Home 1</a></li>
+                                                        <li><a href="1.html">Home 2</a></li>
+                                                        <li><a href="1.html">Home 3</a></li>
+                                                </ul>
+                                        </li>
+                                
+                                        <li><a href="2.html">Products</a></li>
+                                        <li><a href="3.html">Services</a></li>
+                                        <li><a href="4.html">About</a>
+                                                <ul>
+                                                        <li><a href="1.html">hi</a></li>
+                                                        <li><a href="1.html">:)</a></li>
+                                                        <li><a href="1.html">hello</a></li>
+                                                </ul>
+                                        </li>
+                                        <li><a href="5.html">Contact</a></li>
+                                </ul>
+                </div>
+        </div>
+                <div id="content-stuff">
+                        <div id="featured">
+                        <p>Featured</p>
+                        </div>
+                </div>
+                <div class="article column1">
+                        <p>a cool column</p>
+                </div>
+                <div class="article column2">
+                        <p>another cool column</p>
+                </div>
+                <div class="atrivle column3">
+                        <p>last cool column</p>
+                </div>
+                <div id="footer">
+                        <p>&copy: Copyright Madison Stephenseseseseseses 2018</p>
+                </div>
+        <p>According to all known laws
+                of aviation,
+                
+                  
+                there is no way a bee
+                should be able to fly.
+                
+                  
+                Its wings are too small to get
+                its fat little body off the ground.
+                
+                  
+                The bee, of course, flies anyway
+                
+                  
+                because bees don't care
+                what humans think is impossible.
+                
+                  
+                Yellow, black. Yellow, black.
+                Yellow, black. Yellow, black.
+                
+                  
+                Ooh, black and yellow!
+                Let's shake it up a little.
+                
+                  
+                Barry! Breakfast is ready!
+                
+                  
+                Ooming!
+                
+                  
+                Hang on a second.
+                
+                  
+                Hello?
+        </p>
+        <p>
+                Lorem ipsum dolor sit amet, tincidunt ac, nam orci eu sociis augue, 
+                est adipiscing imperdiet pellentesque, sed nullam, lorem ultrices. 
+                A vestibulum phasellus tristique nonummy consectetuer, quam vivamus 
+                pede non maecenas aliquet, eget amet parturient elit, vitae tellus 
+                mauris id a. Fringilla magna amet aliquam fermentum. Dictum accumsan,
+                ornare libero magna nonummy, sit tristique dis. Leo neque turpis arcu
+                pellentesque egestas, platea morbi, vestibulum vel elit. Arcu gravida
+                qui sit, nunc sem ac, quis eu. Et wisi nec posuere, pede semper, 
+                eros fringilla ut et torquent at sed. Risus commodo aliquam. Ligula
+                suspendisse, nulla nulla non, massa pharetra, fusce consequat in 
+                consequat augue. Gravida libero vel.
+        </p>
+        <p>
+                Auctor sapien odio mi suscipit tempor non. Semper eu sed ante risus,
+                necessitatibus suspendisse sed semper sit libero. Wisi accumsan orci
+                a fringilla consequat accumsan, neque lectus mauris nec sodales tortor,
+                vitae amet egestas nulla. Interdum a et, nulla montes. Purus nam dictum,
+                morbi tempus. Penatibus sed et fusce elit, magna ut elit malesuada neque sed,
+                suscipit cras in, lobortis elementum odio donec erat, eu volutpat risus nunc.
+                Mauris consequat, at dignissim per augue pellentesque ut, neque nulla, massa 
+                tincidunt quisque quisque suspendisse id leo, amet facilisis pede sit consectetuer
+                eget fringilla. Vestibulum vehicula sociosqu in, amet amet dolor mauris ultrices
+                eu porta. Vestibulum aliquet sodales dolor. Reprehenderit magna praesent.
+                Libero ac lacus lacus tincidunt sit, enim porta sed dignissim.
+        </p>
+        <p>
+                Est consectetuer in ultricies viverra, vel vitae iaculis sed fringilla sed,
+                potenti praesent ac mollis adipiscing dui nec, at donec, interdum tellus
+                integer turpis diam. Ex duis nonummy. Nullam quam phasellus at, viverra
+                arcu quisque nulla pretium sodales, justo justo interdum. Sem arcu, morbi
+                sed mauris, laoreet nulla sed ac tincidunt hac ut, rutrum eleifend wisi
+                neque. Ullamcorper id, nunc arcu sapien asperiores vulputate ultrices,
+                a magna faucibus id. Sollicitudin risus diam integer metus blandit, lorem
+                libero, sit erat sed in a urna, lacus nulla est nunc elit. Ac orci neque
+                elit justo nulla fringilla. Erat amet vel euismod pellentesque massa,
+                velit fusce, ante auctor odio quis.
+        </p>
+        <p>
+                Pellentesque amet suspendisse, imperdiet at congue, luctus nulla cum,
+                aenean hac tellus in diam, nulla aliquet rutrum nulla lacus sapien. 
+                Augue ipsum dis dictum neque fusce quis, massa lorem hymenaeos quis vestibulum
+                nec dignissim, dictumst dolor scelerisque volutpat varius fusce libero, nisl
+                velit aliquam tempus nec, aenean varius justo vestibulum. Mus ante ornare 
+                tristique luctus cras, hymenaeos eu hymenaeos aliquam nostra tincidunt risus,
+                amet pharetra sed. Vitae pellentesque, praesent exercitation donec vestibulum
+                nec pede. Rhoncus amet lacinia nunc molestie.
+        </p>
+        <p>
+                Lorem ipsum dolor sit amet, tincidunt ac, nam orci eu sociis augue, 
+                est adipiscing imperdiet pellentesque, sed nullam, lorem ultrices. 
+                A vestibulum phasellus tristique nonummy consectetuer, quam vivamus 
+                pede non maecenas aliquet, eget amet parturient elit, vitae tellus 
+                mauris id a. Fringilla magna amet aliquam fermentum. Dictum accumsan,
+                ornare libero magna nonummy, sit tristique dis. Leo neque turpis arcu
+                pellentesque egestas, platea morbi, vestibulum vel elit. Arcu gravida
+                qui sit, nunc sem ac, quis eu. Et wisi nec posuere, pede semper, 
+                eros fringilla ut et torquent at sed. Risus commodo aliquam. Ligula
+                suspendisse, nulla nulla non, massa pharetra, fusce consequat in 
+                consequat augue. Gravida libero vel.
+        </p>
+        <p>
+                Auctor sapien odio mi suscipit tempor non. Semper eu sed ante risus,
+                necessitatibus suspendisse sed semper sit libero. Wisi accumsan orci
+                a fringilla consequat accumsan, neque lectus mauris nec sodales tortor,
+                vitae amet egestas nulla. Interdum a et, nulla montes. Purus nam dictum,
+                morbi tempus. Penatibus sed et fusce elit, magna ut elit malesuada neque sed,
+                suscipit cras in, lobortis elementum odio donec erat, eu volutpat risus nunc.
+                Mauris consequat, at dignissim per augue pellentesque ut, neque nulla, massa 
+                tincidunt quisque quisque suspendisse id leo, amet facilisis pede sit consectetuer
+                eget fringilla. Vestibulum vehicula sociosqu in, amet amet dolor mauris ultrices
+                eu porta. Vestibulum aliquet sodales dolor. Reprehenderit magna praesent.
+                Libero ac lacus lacus tincidunt sit, enim porta sed dignissim.
+        </p>
+        <p>
+                Est consectetuer in ultricies viverra, vel vitae iaculis sed fringilla sed,
+                potenti praesent ac mollis adipiscing dui nec, at donec, interdum tellus
+                integer turpis diam. Ex duis nonummy. Nullam quam phasellus at, viverra
+                arcu quisque nulla pretium sodales, justo justo interdum. Sem arcu, morbi
+                sed mauris, laoreet nulla sed ac tincidunt hac ut, rutrum eleifend wisi
+                neque. Ullamcorper id, nunc arcu sapien asperiores vulputate ultrices,
+                a magna faucibus id. Sollicitudin risus diam integer metus blandit, lorem
+                libero, sit erat sed in a urna, lacus nulla est nunc elit. Ac orci neque
+                elit justo nulla fringilla. Erat amet vel euismod pellentesque massa,
+                velit fusce, ante auctor odio quis.
+        </p>
+        <p>
+                Pellentesque amet suspendisse, imperdiet at congue, luctus nulla cum,
+                aenean hac tellus in diam, nulla aliquet rutrum nulla lacus sapien. 
+                Augue ipsum dis dictum neque fusce quis, massa lorem hymenaeos quis vestibulum
+                nec dignissim, dictumst dolor scelerisque volutpat varius fusce libero, nisl
+                velit aliquam tempus nec, aenean varius justo vestibulum. Mus ante ornare 
+                tristique luctus cras, hymenaeos eu hymenaeos aliquam nostra tincidunt risus,
+                amet pharetra sed. Vitae pellentesque, praesent exercitation donec vestibulum
+                nec pede. Rhoncus amet lacinia nunc molestie.
+        </p>
+        <p>
+                Lorem ipsum dolor sit amet, tincidunt ac, nam orci eu sociis augue, 
+                est adipiscing imperdiet pellentesque, sed nullam, lorem ultrices. 
+                A vestibulum phasellus tristique nonummy consectetuer, quam vivamus 
+                pede non maecenas aliquet, eget amet parturient elit, vitae tellus 
+                mauris id a. Fringilla magna amet aliquam fermentum. Dictum accumsan,
+                ornare libero magna nonummy, sit tristique dis. Leo neque turpis arcu
+                pellentesque egestas, platea morbi, vestibulum vel elit. Arcu gravida
+                qui sit, nunc sem ac, quis eu. Et wisi nec posuere, pede semper, 
+                eros fringilla ut et torquent at sed. Risus commodo aliquam. Ligula
+                suspendisse, nulla nulla non, massa pharetra, fusce consequat in 
+                consequat augue. Gravida libero vel.
+        </p>
+        <p>
+                Auctor sapien odio mi suscipit tempor non. Semper eu sed ante risus,
+                necessitatibus suspendisse sed semper sit libero. Wisi accumsan orci
+                a fringilla consequat accumsan, neque lectus mauris nec sodales tortor,
+                vitae amet egestas nulla. Interdum a et, nulla montes. Purus nam dictum,
+                morbi tempus. Penatibus sed et fusce elit, magna ut elit malesuada neque sed,
+                suscipit cras in, lobortis elementum odio donec erat, eu volutpat risus nunc.
+                Mauris consequat, at dignissim per augue pellentesque ut, neque nulla, massa 
+                tincidunt quisque quisque suspendisse id leo, amet facilisis pede sit consectetuer
+                eget fringilla. Vestibulum vehicula sociosqu in, amet amet dolor mauris ultrices
+                eu porta. Vestibulum aliquet sodales dolor. Reprehenderit magna praesent.
+                Libero ac lacus lacus tincidunt sit, enim porta sed dignissim.
+        </p>
+        <p>
+                Est consectetuer in ultricies viverra, vel vitae iaculis sed fringilla sed,
+                potenti praesent ac mollis adipiscing dui nec, at donec, interdum tellus
+                integer turpis diam. Ex duis nonummy. Nullam quam phasellus at, viverra
+                arcu quisque nulla pretium sodales, justo justo interdum. Sem arcu, morbi
+                sed mauris, laoreet nulla sed ac tincidunt hac ut, rutrum eleifend wisi
+                neque. Ullamcorper id, nunc arcu sapien asperiores vulputate ultrices,
+                a magna faucibus id. Sollicitudin risus diam integer metus blandit, lorem
+                libero, sit erat sed in a urna, lacus nulla est nunc elit. Ac orci neque
+                elit justo nulla fringilla. Erat amet vel euismod pellentesque massa,
+                velit fusce, ante auctor odio quis.
+        </p>
+        <p>
+                Pellentesque amet suspendisse, imperdiet at congue, luctus nulla cum,
+                aenean hac tellus in diam, nulla aliquet rutrum nulla lacus sapien. 
+                Augue ipsum dis dictum neque fusce quis, massa lorem hymenaeos quis vestibulum
+                nec dignissim, dictumst dolor scelerisque volutpat varius fusce libero, nisl
+                velit aliquam tempus nec, aenean varius justo vestibulum. Mus ante ornare 
+                tristique luctus cras, hymenaeos eu hymenaeos aliquam nostra tincidunt risus,
+                amet pharetra sed. Vitae pellentesque, praesent exercitation donec vestibulum
+                nec pede. Rhoncus amet lacinia nunc molestie.
+        </p>
+        <p>
+                Lorem ipsum dolor sit amet, tincidunt ac, nam orci eu sociis augue, 
+                est adipiscing imperdiet pellentesque, sed nullam, lorem ultrices. 
+                A vestibulum phasellus tristique nonummy consectetuer, quam vivamus 
+                pede non maecenas aliquet, eget amet parturient elit, vitae tellus 
+                mauris id a. Fringilla magna amet aliquam fermentum. Dictum accumsan,
+                ornare libero magna nonummy, sit tristique dis. Leo neque turpis arcu
+                pellentesque egestas, platea morbi, vestibulum vel elit. Arcu gravida
+                qui sit, nunc sem ac, quis eu. Et wisi nec posuere, pede semper, 
+                eros fringilla ut et torquent at sed. Risus commodo aliquam. Ligula
+                suspendisse, nulla nulla non, massa pharetra, fusce consequat in 
+                consequat augue. Gravida libero vel.
+        </p>
+        <p>
+                Auctor sapien odio mi suscipit tempor non. Semper eu sed ante risus,
+                necessitatibus suspendisse sed semper sit libero. Wisi accumsan orci
+                a fringilla consequat accumsan, neque lectus mauris nec sodales tortor,
+                vitae amet egestas nulla. Interdum a et, nulla montes. Purus nam dictum,
+                morbi tempus. Penatibus sed et fusce elit, magna ut elit malesuada neque sed,
+                suscipit cras in, lobortis elementum odio donec erat, eu volutpat risus nunc.
+                Mauris consequat, at dignissim per augue pellentesque ut, neque nulla, massa 
+                tincidunt quisque quisque suspendisse id leo, amet facilisis pede sit consectetuer
+                eget fringilla. Vestibulum vehicula sociosqu in, amet amet dolor mauris ultrices
+                eu porta. Vestibulum aliquet sodales dolor. Reprehenderit magna praesent.
+                Libero ac lacus lacus tincidunt sit, enim porta sed dignissim.
+        </p>
+        <p>
+                Est consectetuer in ultricies viverra, vel vitae iaculis sed fringilla sed,
+                potenti praesent ac mollis adipiscing dui nec, at donec, interdum tellus
+                integer turpis diam. Ex duis nonummy. Nullam quam phasellus at, viverra
+                arcu quisque nulla pretium sodales, justo justo interdum. Sem arcu, morbi
+                sed mauris, laoreet nulla sed ac tincidunt hac ut, rutrum eleifend wisi
+                neque. Ullamcorper id, nunc arcu sapien asperiores vulputate ultrices,
+                a magna faucibus id. Sollicitudin risus diam integer metus blandit, lorem
+                libero, sit erat sed in a urna, lacus nulla est nunc elit. Ac orci neque
+                elit justo nulla fringilla. Erat amet vel euismod pellentesque massa,
+                velit fusce, ante auctor odio quis.
+        </p>
+        <p>
+                Pellentesque amet suspendisse, imperdiet at congue, luctus nulla cum,
+                aenean hac tellus in diam, nulla aliquet rutrum nulla lacus sapien. 
+                Augue ipsum dis dictum neque fusce quis, massa lorem hymenaeos quis vestibulum
+                nec dignissim, dictumst dolor scelerisque volutpat varius fusce libero, nisl
+                velit aliquam tempus nec, aenean varius justo vestibulum. Mus ante ornare 
+                tristique luctus cras, hymenaeos eu hymenaeos aliquam nostra tincidunt risus,
+                amet pharetra sed. Vitae pellentesque, praesent exercitation donec vestibulum
+                nec pede. Rhoncus amet lacinia nunc molestie.
+        </p>
     </body>
 
 </html>
