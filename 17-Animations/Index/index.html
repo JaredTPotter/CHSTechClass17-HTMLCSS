@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>First Animation</title>
+        <style type="text/css">
+            .box {
+                height: 100px;
+                width: 100px;
+                background: blue;
+                position: absolute;
+
+                animation: fade 1s ease-out infinite;
+            }
+            @keyframes fade {
+                0% {
+                    background-color: yellow; 
+                }
+                100% {
+                    background-color: blue;
+                }
+    }
+            </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>
