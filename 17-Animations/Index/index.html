@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>First Animation</title>
+        <style type="text/css">
+            .box {
+                height: 100px;
+                width: 100px;
+                top: 50%;
+                left:50%;
+                background: yellow;
+                position: absolute;
+            }
+
+            .box p {
+                position: relative;
+                text-align: center;
+                color: white;
+                transform: rotate(180deg);
+                margin-top:40px;
+            }
+
+            .box:hover {
+                animation: fade 1s ease-out 1;
+                background-color: blue;
+                transform: scale(2,2) rotate(180deg);
+            }
+            
+            @keyframes fade {
+                0% {
+                    background-color: yellow;
+                    transform: scale(1,1) rotate(0deg);
+                }
+                100% {
+                    background-color: blue;
+                    transform: scale(2,2) rotate(180deg);
+                }
+    }
+            </style>
+    </head>
+    <body>
+        <div class="box">
+            <p>BEGIN</p>
+        </div>
+    </body>
+</html>
