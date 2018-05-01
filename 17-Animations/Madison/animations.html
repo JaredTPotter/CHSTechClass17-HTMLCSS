@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Animations</title>
+    </head>
+    <style>
+.box {
+    background: peachpuff;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: spin 3s infinite linear;
+  }
+    @keyframes spin {
+        from {
+          transform:rotate(0deg);
+          background-color: peachpuff;
+          opacity: 0;
+      }
+        to {
+          transform:rotate(360deg);
+          background-color:papayawhip;
+          opacity: 1;
+      }
+  }
+.box p {
+    position: relative;
+    text-align: center;
+    color:black;
+    transform: rotate(180deg);
+    margin-top: 45px;
+  }
+  </style>
+
+  <div class="box">
+      <p>hi :)</p>
+  </div>
+</html>
