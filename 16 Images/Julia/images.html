@@ -2,10 +2,32 @@
     <head>
         <title>Adding Images</title>
         <style>
+            * {
+                color: indianred;
+                background: url("../../05-Images/katniss-everdeen_55041365-1920x1080-1920x1080.jpeg")
+                repeat-x,
+                url("https://www.sideshowtoy.com/photo_100122_thumb.jpg")
+                repeat-y;
+            }
+            .no {
+                background-image: none;
+            }
+            body {
+                margin: 1.5%;
+                background-image: url("../../05-Images/Julia/mars.jpg");
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-position: center center;
+            }
+
+            /*<img class="jawa" src="https://www.sideshowtoy.com/photo_100122_thumb.jpg" alt="Jawas Live Here" title="We Live Here"/>
+            <img class="katniss" src="katniss-everdeen_55041365-1920x1080-1920x1080.jpeg" alt="Katniss Everdeen" title="" />
+
             img {
                 height: 35%;
                 max-height: 100px;
                 float: right;
+
             }
             img.jawa {
                 
@@ -17,16 +39,13 @@
                 position: fixed;
                 z-index: 1;
                 margin: 0px;
-            }
+            }*/
         </style>
     </head>
     <body>
+        <h1 class="no">Lorem Ipsum</h1>
         
-        
-        <p> <img class="mars" src="mars.jpg" alt="Mars" title=""/>
-            <img class="jawa" src="https://www.sideshowtoy.com/photo_100122_thumb.jpg" alt="Jawas Live Here" title="We Live Here"/>
-            <img class="katniss" src="katniss-everdeen_55041365-1920x1080-1920x1080.jpeg" alt="Katniss Everdeen" title="" />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at interdum dolor. Donec vel ultrices sem.
+        <p class="no">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at interdum dolor. Donec vel ultrices sem.
             Praesent pellentesque, magna sed semper facilisis, nibh risus cursus felis, ut pretium leo ante a est.
             Etiam placerat rhoncus enim in iaculis. Aenean maximus egestas bibendum. Donec leo ante, tempor vel libero ac, laoreet egestas tortor.
             Suspendisse finibus leo sed sem congue dignissim. Sed pellentesque augue in felis aliquam, ac semper magna euismod.

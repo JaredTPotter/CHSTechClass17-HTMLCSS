@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        * {
+            font-family: Arial;
+        }
+        div.A {
+            width: 300px;
+            background: lightgreen;
+            animation: spin .04s linear infinite;
+            float: left;
+            shape-outside: circle(200px);
+        }
+        @keyframes spin{
+            0% {transform: rotate(0deg)}
+            100% {transform: rotate(360deg)}
+        }
+        p {
+            font-size: 30px;
+            text-align: center;
+            color: white;
+        }
+        div.B {
+            width: 150px;
+            height: 150px;
+            animation: spin 1.6s linear infinite;
+            float: right;
+            transform-origin: 50% 50%;
+            shape-outside: circle(200px);
+        }
+        @keyframes spin{
+            0% {transform: rotate(0deg)}
+            100% {transform : rotate(360deg)}
+        }
+        #a {
+            width: 100%;
+            height: 100%;
+        }
+        #b {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <head>
+        <title>O</title>
+    </head>
+    <body>
+        <div class="A">
+            <p>PLEASE</p>
+        </div>
+        <div class="B">
+            <img src="https://www.androidcentral.com/sites/androidcentral.com/files/topic_images/2014/Chrome-Logo.png" id="a">
+        </div>
+        <div class="C">
+            <img src="http://bestanimations.com/Science/Gears/silver-gear-cogs-animation-5.gif" id="b">
+        </div>
+    </body>
+</html>
